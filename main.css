@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800');
+
 html, body {
   width: 100%;
   height: 100%;
-  background: #E5E5E5;
   overflow-x: hidden;
   scroll-behavior: smooth;
   top: 0;
   left: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
