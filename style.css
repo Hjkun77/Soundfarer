@@ -1,3 +1,4 @@
+
 /* Navigation */
 nav {
   width: 100%;
@@ -21,6 +22,7 @@ nav {
 .landingContainer div {
   padding-top: 20%;
 }
+
 .landingContainer h1 {
   text-transform: uppercase;
   font-weight: 900;
@@ -30,61 +32,49 @@ nav {
   background: #D41F45;
 }
 
+/* Journey Section */
 #journey {
-  min-height: 133vh;
   width: 100%;
-  margin-top: -60px;
+  min-height: 120vh;
 }
 
-#j-1{
+#j-1 {
   position: static;
   float: left;
   z-index: 0;
-
+  margin-left: -5px;
   width: 548px;
   height: 221px;
-
-  margin-top: 4.2%;
-  margin-left: -0.65%;
 }
 
-.j-3{
+.j-3 {
   position: relative;
   z-index: 1;
-
   margin-left: 10%;
-
   width: 583px;
   height: 351px;
-
 }
 
-#j-3a{
+.j-3 img {
   position: relative;
   margin-top: -18.5%;
-
-
 }
 
-#j-3b{
+.j-3 h3 {
   position: relative;
-
-  margin-left: 24%;
+  margin-left: 22%;
   top: -122%;
-
   width: 346px;
   height: 233px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: normal;
-
   color: #F6F6F6;
 }
 
-.j-4{
+.j-4 {
   position: relative;
-
   width: 417px;
   height: 508px;
   margin-top: -16%;
@@ -92,22 +82,23 @@ nav {
   left: 55%;
 }
 
-#j-4a{
+.j-4 img {
   position: relative;
   z-index: 0;
   margin-top: -5%;
 }
 
-#j-4b{
+.j-4>div {
   position: relative;
   margin-top: -32%;
   margin-right: 0%;
   text-align: center;
   z-index: 1;
   color: #F6F6F6;
+  margin-left: -25px;
 }
 
-#j-4b>h3{
+.j-4 div>>h3 {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -115,45 +106,114 @@ nav {
   text-align: center;
 }
 
-#j-5{
-  position:relative;
-  left:64.5%;
+#j-5 {
+  position: relative;
+  left: 62.5%;
   margin-top: -60%;
   width: 180px;
   height: 94px;
   border-radius: 30px;
-
-
   background-size: 186px 94px;
   background-repeat: no-repeat;
   background-color: white;
-  border:none;
-
+  border: none;
   background-image: url("./resources/buttons/Website_Buttons-16.png");
 }
 
-#j-5:hover{
+#j-5:hover {
   background-image: url("./resources/buttons/Website_Buttons-17.png");
 }
 
-#j-5:active{
+#j-5:active {
   background-image: url("./resources/buttons/Website_Buttons-18.png");
 }
 
-#j-6{
+#j-6 {
   position: relative;
   float: right;
-
-
   width: 356px;
   height: 623px;
-
   margin-right: -2.1%;
   margin-top: -5%;
+  z-index: 2;
 }
 
+/* Stories Section */
+
 #stories {
-  min-height: 120vh;
+  min-height: 100vh;
   width: 100%;
-  margin-top: -60px;
+  padding-top: 20%
+}
+
+
+.s-1 img {
+  width: 562px;
+  height: 1021px;
+}
+
+
+.s-1 p {
+  width: 301px;
+  position: relative;
+  height: 319px;
+  margin-bottom: -110%;
+  margin-left: 25%;
+}
+
+.s-2 {
+  width: 25%;
+  margin: 0 auto;
+  margin-top: -15%;
+}
+
+.stories-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+}
+
+.stories-grid > img {
+  width: 140px;
+  height: 140px;
+  margin: auto;
+}
+
+#s-3 {
+  margin-top: -25%;
+}
+
+
+/* About Section */
+#stories {
+  min-height: 100vh;
+  width: 100%;
+}
+
+#a-1 {
+  background: url('./resources/graphics/Website Elements-06.png');
+  width: 644px;
+  height: 442px;
+}
+
+#a-1 p {
+  margin-top: 8px;
+  text-align: center;
+  width: 456px;
+  height: 141px;
+  font-size: 18px;
+  color: black;
+}
+
+#a-2 {
+  width: 348px;
+  height: 485px;
+}
+
+#a-3 {
+  margin-top: -10%;
+}
+
+#a-4 {
+  margin-top: -20%;
 }
