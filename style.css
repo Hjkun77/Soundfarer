@@ -31,7 +31,7 @@ nav {
 }
 
 #journey {
-  min-height: 133vh;
+  height: 137vh;
   width: 100%;
   margin-top: -60px;
 }
@@ -89,7 +89,7 @@ nav {
   height: 508px;
   margin-top: -16%;
   margin-bottom: -6%;
-  left: 55%;
+  left: 53%;
 }
 
 #j-4a{
@@ -117,7 +117,7 @@ nav {
 
 #j-5{
   position:relative;
-  left:64.5%;
+  left:62.5%;
   margin-top: -60%;
   width: 180px;
   height: 94px;
@@ -140,20 +140,240 @@ nav {
   background-image: url("./resources/buttons/Website_Buttons-18.png");
 }
 
+.j-6{
+  position: relative;
+  top:-550px;
+  left: 1000px;
+}
+
 #j-6{
+  width: 254px;
+  height: 267px;
+}
+
+.j-7{
   position: relative;
   float: right;
 
+  top: -350px;
+  margin-right: -1.8%;
+}
 
-  width: 356px;
-  height: 623px;
+#j-7{
 
-  margin-right: -2.1%;
-  margin-top: -5%;
+  width: 306px;
+  height: 573px;
 }
 
 #stories {
-  min-height: 120vh;
+  max-height: 119vh;
   width: 100%;
-  margin-top: -60px;
+  margin-top: -100px;
+}
+
+.j8{
+  position: relative;
+  float: left;
+
+  left: 0%;
+}
+
+#j-8{
+  position: relative;
+  z-index: 0;
+  width: 562px;
+  height: 1021px;
+}
+
+.j-8>div{
+  position: relative;
+  z-index: 1;
+  text-align: left;
+
+  width: 301px;
+  height: 319px;
+  top: -750px;
+  margin-left: 11.5%;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.j-9{
+  position: relative;
+  text-align: center;
+
+  top:-1310px;
+  left:592px;
+  width:350px;
+  height:600px;
+}
+
+#j-9a{
+  text-align: center;
+  position: relative;
+
+  width: 350px;
+  height: 57px;
+}
+
+#j-9b{
+  position: relative;
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-gap: 26px 49px;
+  z-index: 0;
+
+  left:1.5%;
+  top:13px;
+
+  height:500px;
+}
+
+#j-9b>img{
+  width: 142px;
+  height: 142px;
+}
+
+#j-9c{
+  position: relative;
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-gap: 118px 39px;
+  z-index: 1;
+
+  top: -383px;
+  left:1.5%;
+}
+
+#j-9c>div{
+  width: 180px;
+  height: 60px;
+  background-repeat: no-repeat;
+}
+
+#j-9c1{
+  background: url(./resources/graphics/Website_Buttons-63.png);
+}
+
+#j-9c2{
+  position: relative;
+  top:-12px;
+  background: url(./resources/graphics/Website_Buttons-65.png);
+}
+
+#j-9c3{
+  position: relative;
+  left:-8%;
+  top:-23px;
+  background: url(./resources/graphics/Website_Buttons-64.png);
+}
+
+#j-9c4{
+  position: relative;
+  left:-0.5%;
+  top:-23px;
+  background: url(./resources/graphics/Website_Buttons-66.png);
+}
+
+
+#j-9c1:hover{
+  background: url(./resources/graphics/Website_Buttons-47.png);
+  background-repeat: no-repeat;
+}
+
+#j-9c2:hover{
+   background: url(./resources/graphics/Website_Buttons-51.png);
+   background-repeat: no-repeat;
+}
+
+#j-9c3:hover{
+  background: url(./resources/graphics/Website_Buttons-49.png);
+  background-repeat: no-repeat;
+}
+
+#j-9c4:hover{
+  background: url(./resources/graphics/Website_Buttons-53.png);
+  background-repeat: no-repeat;
+}
+
+#j-9c1:active{
+  background: url(./resources/graphics/Website_Buttons-48.png);
+  background-repeat: no-repeat;
+}
+
+#j-9c2:active{
+   background: url(./resources/graphics/Website_Buttons-52.png);
+   background-repeat: no-repeat;
+}
+
+#j-9c3:active{
+  background: url(./resources/graphics/Website_Buttons-50.png);
+  background-repeat: no-repeat;
+}
+
+#j-9c4:active{
+  background: url(./resources/graphics/Website_Buttons-54.png);
+  background-repeat: no-repeat;
+}
+
+.j-x{
+  position: relative;
+  float: right;
+
+  margin-top: -1333px;
+  margin-right: 1%;
+
+  width: 177px;
+  height: 165px;
+}
+
+#about{
+  min-height: 119vh;
+  width: 100%;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#a-1{
+  position: relative;
+  float:left;
+
+  margin-bottom: -25px;
+  margin-left: 1%;
+
+  width: 348px;
+  height: 485px;
+}
+
+#a-2{
+  position: relative;
+
+  left: 25%;
+  top:200px;
+
+  width: 644px;
+  max-height: 442px;
+}
+
+#a-3{
+  position: relative;
+  float:right;
+  z-index: 0;
+
+  width: 226px;
+  height: 229px;
+}
+
+#a-4{
+  position: relative;
+  float:right;
+  z-index: 1;
+
+  bottom: -262px;
+
+  width: 572px;
+  height: 201px;
 }
