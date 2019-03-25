@@ -25,4 +25,19 @@
 .welcome h3 { font: 25px/25px Raleway; }
 .welcome h2 { font: 900 45px/45px Raleway; text-transform: uppercase; }
 
-.tracker { width: 700px; margin: auto; height: 650px; padding-top: 70px; }
+.tracker { width: 730px; margin: auto; height: 650px; padding-top: 70px; position: relative; text-align: center; }
+#pathway { margin: auto; width: 606px;  }
+
+.p-1 { position: absolute; width: 126px; height: 127px; top: 190px; left: 0px; }
+.p-1 a { width: 100px; height: 100px; display: block; }
+
+.p-1 a.current { background: url('./resources/graphics/Website_Buttons-19.png'); }
+.p-1 a.current:hover { background: url('./resources/graphics/Website_Buttons-20.png'); margin-top: -3px; margin-left: 3px;  }
+.p-1 a.current:active { background: url('./resources/graphics/Website_Buttons-21.png'); }
+
+.p-2 { position: absolute; width: 126px; height: 127px; top: 303px; left: 225px; }
+.p-2 a { width: 80px; height: 80px; display: block; }
+
+.p-2 a.question { background: url('./resources/graphics/Website_Buttons-22.png'); }
+.p-2 a.question:hover { background: url('./resources/graphics/Website_Buttons-23.png'); }
+.p-2 a.question:active { background: url('./resources/graphics/Website_Buttons-24.png'); }
