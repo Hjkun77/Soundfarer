@@ -65,16 +65,53 @@
         <div style="margin: auto">
           <img src="./resources/graphics/Website Elements-17.png" alt="featured-stories" style="margin-bottom: 12px">
           <div class="stories-grid">
-            <img src="./resources/portraits/Artist Portraits-56.png" alt="portrait 56">
-            <img src="./resources/portraits/Artist Portraits-57.png" alt="portrait 57">
-            <img src="./resources/portraits/Artist Portraits-58.png" alt="portrait 58">
-            <img src="./resources/portraits/Artist Portraits-59.png" alt="portrait 59">
+            <img src="./resources/portraits/Artist Portraits-56.png" alt="portrait 56" onclick="document.getElementById('id01').style.display='block'">
+            <img src="./resources/portraits/Artist Portraits-57.png" alt="portrait 57" onclick="document.getElementById('id02').style.display='block'">
+            <img src="./resources/portraits/Artist Portraits-58.png" alt="portrait 58" onclick="document.getElementById('id03').style.display='block'">
+            <img src="./resources/portraits/Artist Portraits-59.png" alt="portrait 59" onclick="document.getElementById('id04').style.display='block'">
             <div style="width: 140px; height: 140px; margin: auto; background: #C4C4C4; border-radius: 9999rem"></div>
             <div style="width: 140px; height: 140px; margin: auto; background: #C4C4C4; border-radius: 9999rem"></div>
             <div style="width: 140px; height: 140px; margin: auto; background: #C4C4C4; border-radius: 9999rem"></div>
             <div style="width: 140px; height: 140px; margin: auto; background: #C4C4C4; border-radius: 9999rem"></div>
           </div>
         </div>
+
+          <div id="id01" class="modal">
+            <div onclick="document.getElementById('id01').style.display='none'" class="close"></div>
+            <div class="modal-content">
+              <div class="container">
+                <img src="./resources/graphics/STORIES_MOONWLK_Overlay.png" id="modal-img" alt="graphics 9a">
+              </div>
+            </div>
+        </div>
+
+        <div id="id02" class="modal">
+          <div onclick="document.getElementById('id02').style.display='none'" class="close"></div>
+          <div class="modal-content">
+            <div class="container">
+              <img src="./resources/graphics/Artist Overlay-68.png" id="modal-img" alt="graphics 9a">
+            </div>
+          </div>
+      </div>
+
+      <div id="id03" class="modal">
+        <div onclick="document.getElementById('id03').style.display='none'" class="close"></div>
+        <div class="modal-content">
+          <div class="container">
+            <img src="./resources/graphics/STORIES MOONWLK Overlay (1).png" id="modal-img" alt="graphics 9a">
+          </div>
+        </div>
+    </div>
+
+    <div id="id04" class="modal">
+      <div onclick="document.getElementById('id04').style.display='none'" class="close"></div>
+      <div class="modal-content">
+        <div class="container">
+          <img src="./resources/graphics/STORIES MOONWLK Overlay (2).png" id="modal-img" alt="graphics 9a">
+        </div>
+      </div>
+  </div>
+
       </div>
     </div>
 
