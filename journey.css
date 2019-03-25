@@ -1,0 +1,14 @@
+#progress { background: #f6f6f6; min-height: 2300px; position: relative; }
+
+#side1 { position: absolute; right: 0px; top: 497px; }
+
+#side2 { position: absolute; left: 0px; top: 1189px; }
+
+#bottom-left { position: absolute; left: 0px; bottom: 0px; }
+#bottom-right { position: absolute; right: 0px; bottom: 0px; }
+
+.recordlabel  { margin: auto; margin-top: 882px; width: 615px; }
+.recordlabel h2 { color: #D41F45; font: 900 36px/36px Raleway; text-transform: uppercase; }
+
+.giglocation { margin: auto; margin-top: 742px; width: 615px; }
+.giglocation h2 { color: #D41F45; font: 900 36px/36px Raleway; text-transform: uppercase; }
