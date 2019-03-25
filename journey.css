@@ -1,0 +1,43 @@
+#progress { background: #f6f6f6; min-height: 2300px; position: relative; }
+
+#side1 { position: absolute; right: 0px; top: 497px; }
+
+#side2 { position: absolute; left: 0px; top: 1189px; }
+
+#bottom-left { position: absolute; left: 0px; bottom: 0px; }
+#bottom-right { position: absolute; right: 0px; bottom: 0px; }
+
+.recordlabel  { margin: auto; position: relative; top: 252px; width: 615px; }
+.recordlabel h2 { color: #D41F45; font: 900 36px/36px Raleway; text-transform: uppercase; }
+
+.giglocation { margin: auto; position: relative; top: 952px; width: 615px; }
+.giglocation h2 { color: #D41F45; font: 900 36px/36px Raleway; text-transform: uppercase; }
+
+#topleft { position: absolute; left: 0px; top: 0px; }
+#topright { position: absolute; right: 0px; top: 0px; }
+
+.prognav { position: fixed; width: 159px; top: 350px; right: 20px; z-index: 1000; }
+.prognav a { background: #D41F45; width: 159px; display: block; text-align: center; color: white; font: 900 24px Raleway; margin-bottom: 20px; }
+.prognav a:hover { background: #5E203A; }
+
+
+.welcome { position: absolute; width: 258px; padding: 20px; background: #D41F45; text-align: center; color: white; top: 476px; }
+.welcome h3 { font: 25px/25px Raleway; }
+.welcome h2 { font: 900 45px/45px Raleway; text-transform: uppercase; }
+
+.tracker { width: 730px; margin: auto; height: 650px; padding-top: 70px; position: relative; text-align: center; }
+#pathway { margin: auto; width: 606px;  }
+
+.p-1 { position: absolute; width: 126px; height: 127px; top: 190px; left: 0px; }
+.p-1 a { width: 100px; height: 100px; display: block; }
+
+.p-1 a.current { background: url('./resources/graphics/Website_Buttons-19.png'); }
+.p-1 a.current:hover { background: url('./resources/graphics/Website_Buttons-20.png'); margin-top: -3px; margin-left: 3px;  }
+.p-1 a.current:active { background: url('./resources/graphics/Website_Buttons-21.png'); }
+
+.p-2 { position: absolute; width: 126px; height: 127px; top: 303px; left: 225px; }
+.p-2 a { width: 80px; height: 80px; display: block; }
+
+.p-2 a.question { background: url('./resources/graphics/Website_Buttons-22.png'); }
+.p-2 a.question:hover { background: url('./resources/graphics/Website_Buttons-23.png'); }
+.p-2 a.question:active { background: url('./resources/graphics/Website_Buttons-24.png'); }
