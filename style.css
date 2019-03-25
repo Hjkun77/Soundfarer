@@ -138,12 +138,81 @@ nav {
   z-index: 2;
 }
 
+.j-5_modal-content{
+  position: relative;
+  background-color: #fefefe;
+  margin: 5.4% auto 8%;
+  padding: 0px;
+  border: 0px solid #888;
+  width: 38%;
+  height: 480px;
+  z-index: 4;
+  margin-top: -625px;
+}
+
+.j-5_modal-content2{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 5.4% 36.4% 8%;
+  padding: 0px;
+  border: 0px solid #888;
+  z-index: 4;
+  margin-top: -315px;
+  width:30%;
+  height: 100px;
+
+}
+
+#name {
+  width: 90%;
+  height: 26px;
+  color: black;
+  padding: 14px 20px;
+  margin: 0;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#j-5_modal-img{
+  position: relative;
+width: 508px;
+height: 488px;
+}
+
+#j-5b{
+  position: relative;
+  width: 180px;
+height: 100px;
+left:24%;
+top: 80%;
+  background: url("./resources/buttons/Website Buttons-44.png");
+  border-radius: 0px;
+  background-size: 173px 79px;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  border: none;
+}
+
+#j-5b:hover{
+  background: url("./resources/buttons/Website Buttons-45.png");
+  background-size: 173px 79px;
+  background-repeat: no-repeat;
+}
+
+#j-5b:active{
+  background: url("./resources/buttons/Website Buttons-46.png");
+  background-size: 173px 79px;
+  background-repeat: no-repeat;
+}
+
 /* Stories Section */
 
 #stories {
   min-height: 100vh;
   width: 100%;
-  padding-top: 20%
+  padding-top: 20%;
 }
 
 
@@ -191,6 +260,7 @@ nav {
   background-color: rgba(0,0,0,0.4);
   z-index: 4;
   overflow: hidden;
+  text-align: center;
 }
 
 #modal-img{
@@ -207,7 +277,7 @@ nav {
   border: 0px solid #888;
   width: 80%;
   height: 550px;
-  z-index: 50;
+  z-index: 4;
   margin-top: -625px;
 }
 

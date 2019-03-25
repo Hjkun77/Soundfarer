@@ -46,13 +46,25 @@
       <div><h3>You need to sign up so you can start<br> tracking your progress! </h3></div>
     </div>
 
-    <button id="j-5"></button>
+    <button id="j-5" onclick="document.getElementById('j-5_id01').style.display='block'"></button>
 
     <img src="./resources/graphics/Website_Elements-08.png"
     alt="logo" id="j-6">
+
+    <div id="j-5_id01" class="modal">
+      <div onclick="document.getElementById('j-5_id01').style.display='none'" class="close"></div>
+      <div class="j-5_modal-content">
+        <div class="container">
+          <img src="./resources/graphics/Sign-Up Overlay.png" id="j-5_modal-img" alt="graphics 9a">
+        </div>
+      </div>
+      <div class="j-5_modal-content2">
+         <input type="text" id="name" name="display-name" placeholder="">
+         <button id="j-5b"></button>
+      </div>
+  </div>
+
   </section>
-
-
 
   <section id="stories">
     <div class="flex">
