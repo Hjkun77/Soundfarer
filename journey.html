@@ -13,13 +13,16 @@
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="journey.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i|Raleway:300,400,700,900" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 <body>
-
-  <nav class="flex">
-    <img src="./resources/logo/logo.svg" alt="logo">
-  </nav>
-
   <section id="progress">
     <img src="./resources/graphics/Website_Elements-90.png" alt="logo" id="topleft">
     <img src="./resources/graphics/Website_Elements-92.png" alt="logo" id="topright">
@@ -40,9 +43,55 @@
 
   <img src="./resources/graphics/Website_Elements-16.png" alt="logo" id="pathway">
 
-<div class="p-1"><a href="#" class="current"></a></div>
+  <!-- Button trigger modal -->
+  <div class="p-1">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#task1">
+      <div class="current"></div>
+    </button>
 
-<div class="p-2"><a href="#" class="question"></a></div>
+  <div class="modal fade" id="task1" tabindex="-1" role="dialog" aria-labelledby="Task1Content" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h1>TASK #1</h1>
+          <h2>ESTABLISH YOUR IMAGE</h2>
+          <p>It’s important to know what kind of artist or band you want to be going forward. The kind of sound you want to create and the aesthetic that guides the way your brand presents itself to the public are important things to consider. </p>
+        </div>
+        <div class="trackerbuttons">
+          <button class="bt-done" data-dismiss="modal"></button> <!-- I'm Done! -->
+          <button class="bt-back" data-dismiss="modal"></button> <!-- Go Back -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="p-2">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#task2">
+    <div class="question"></div>
+  </button>
+
+<div class="modal fade" id="task2" tabindex="-1" role="dialog" aria-labelledby="Task2Content" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h1>TASK #2</h1>
+        <h2>PLAY YOUR FIRST GIG</h2>
+        <p>Your first gig is always going to be important: it’s your first taste of playing on stage to a crowd of people. Whether that crowd of people range from being a handful to a stacked crowd, what matters is the experience you get from it.</p>
+      </div>
+      <div class="trackerbuttons">
+        <button class="bt-done" data-dismiss="modal"></button> <!-- I'm Done! -->
+        <button class="bt-back" data-dismiss="modal"></button> <!-- Go Back -->
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</div>
 
 </div>
 
