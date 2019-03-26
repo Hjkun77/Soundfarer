@@ -4,33 +4,17 @@ nav {
   width: 100%;
   height: 60px;
   padding: 0 30px;
-  background: transparent;
+  background: black;
 }
 
 #landing {
-  min-height: 100vh;
+  position: relative;
+  min-height: 90vh;
   width: 100%;
-  margin-top: -60px;
-  background: url('./resources/graphics/landing.png');
+  margin-top: 0;
+  margin-bottom: -5px;
 }
 
-.landingContainer {
-  width: 75%;
-  margin: auto;
-}
-
-.landingContainer div {
-  padding-top: 20%;
-}
-
-.landingContainer h1 {
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 48px;
-  padding: 8px;
-  color: #F6F6F6;
-  background: #D41F45;
-}
 
 /* Journey Section */
 #journey {
@@ -151,8 +135,13 @@ nav {
 }
 
 .j-5_modal-content2{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   margin: 5.4% 36.4% 8%;
   padding: 0px;
