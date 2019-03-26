@@ -18,7 +18,7 @@
 
 .prognav { position: fixed; width: 159px; top: 350px; right: 20px; z-index: 1000; }
 .prognav a { background: #D41F45; width: 159px; display: block; text-align: center; color: white; font: 900 24px Raleway; margin-bottom: 20px; }
-.prognav a:hover { background: #5E203A; }
+.prognav a:hover { background: #5E203A; color: white; text-decoration: none;  }
 
 
 .welcome { position: absolute; width: 258px; padding: 20px; background: #D41F45; text-align: center; color: white; top: 476px; }
@@ -27,14 +27,17 @@
 
 .tracker { width: 730px; margin: auto; height: 650px; padding-top: 70px; position: relative; text-align: center; }
 #pathway { margin: auto; width: 606px;  }
-.current { width: 100px; height: 100px; background: url('./resources/graphics/Website_Buttons-19.png'); }
-.current:hover { background: url('./resources/graphics/Website_Buttons-20.png'); margin-top: -3px; margin-left: 3px;  }
-.current:active { background: url('./resources/graphics/Website_Buttons-21.png'); margin-top: -3px; margin-left: 3px; }
+#current { width: 100px; height: 100px; background: url('./resources/graphics/Website_Buttons-19.png'); }
+#current:hover { background: url('./resources/graphics/Website_Buttons-20.png'); margin-top: -3px; margin-left: 3px;  }
+#current:active { background: url('./resources/graphics/Website_Buttons-21.png'); margin-top: -3px; margin-left: 3px; }
 
-.question { width: 75px; height: 75px; background: url('./resources/graphics/Website_Buttons-22.png'); }
-.question:hover { background: url('./resources/graphics/Website_Buttons-23.png'); }
-.question:active { background: url('./resources/graphics/Website_Buttons-24.png'); }
+#question { width: 75px; height: 75px; background: url('./resources/graphics/Website_Buttons-22.png'); }
+#question:hover { background: url('./resources/graphics/Website_Buttons-23.png'); }
+#question:active { background: url('./resources/graphics/Website_Buttons-24.png'); }
 
+#check { width: 75px; height: 75px; background: url('./resources/graphics/Website_Buttons-25.png'); }
+#check:hover { background: url('./resources/graphics/Website_Buttons-26.png'); }
+#check:active { background: url('./resources/graphics/Website_Buttons-27.png'); }
 
 .tracker button, .tracker button:hover, .tracker button:active { border: 0px; padding: 0px; }
 .tracker button.btn { background: none!important; border-radius: 100%; }
@@ -56,8 +59,19 @@ button.bt-back:hover { background-image: url('./resources/graphics/Website_Butto
 button.bt-back:active { background-image: url('./resources/graphics/Website_Buttons-33.png'); background-size: 85px; background-repeat: no-repeat; }
 
 .p-1 .modal-content { background: url('./resources/graphics/Task_Overlays-64.png'); background-size: 100%; background-repeat: no-repeat; }
-
 .p-2 .modal-content { background: url('./resources/graphics/Task_Overlays-65.png'); background-size: 100%; background-repeat: no-repeat; }
+.p-3 .modal-content { background: url('./resources/graphics/Task_Overlays-66.png'); background-size: 100%; background-repeat: no-repeat; }
+.p-4 .modal-content { background: url('./resources/graphics/Task_Overlays-67.png'); background-size: 100%; background-repeat: no-repeat; }
+.p-5 .modal-content { background: url('./resources/graphics/Task_Overlays-68.png'); background-size: 100%; background-repeat: no-repeat; }
+.p-6 .modal-content { background: url('./resources/graphics/Task_Overlays-69.png'); background-size: 100%; background-repeat: no-repeat; }
+.p-7 .modal-content { background: url('./resources/graphics/Task_Overlays-70.png'); background-size: 100%; background-repeat: no-repeat; }
+.p-8 .modal-content { background: url('./resources/graphics/Task_Overlays-71.png'); background-size: 100%; background-repeat: no-repeat; }
 
 .p-1 button.btn { position: absolute; top: 190px; left: 0px; }
-.p-2 button.btn { position: absolute; top: 303px; left: 225px; }
+.p-2 button.btn { position: absolute; top: 313px; left: 225px; }
+.p-3 button.btn { position: absolute; top: 483px; left: 225px; }
+.p-4 button.btn { position: absolute; top: 603px; left: 400px; }
+.p-5 button.btn { position: absolute; top: 393px; left: 423px; }
+.p-6 button.btn { position: absolute; top: 203px; left: 423px; }
+.p-7 button.btn { position: absolute; top: 43px; left: 520px; }
+.p-8 button.btn { position: absolute; top: 250px; left: 615px; }
