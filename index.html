@@ -15,12 +15,16 @@
 </head>
 <body>
 
-  <nav class="flex">
+  <nav class="flex" id='navbar'>
     <img src="./resources/logo/logo.svg" alt="logo">
   </nav>
 
   <section id="landing">
-    <iframe style="min-height: 95vh; min-width: 100%;" src="https://www.youtube.com/embed/p2Q_usTuZGs?autoplay=1&controls=0&loop=1&playlist=p2Q_usTuZGs;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <video style="min-height: 90vh; min-width: 100%;" autoplay loop>
+      <source src="./resources/video/loop.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+    </video>
+    <!-- <iframe style="min-height: 95vh; min-width: 100%;" src="https://www.youtube.com/embed/p2Q_usTuZGs?autoplay=1&controls=0&loop=1&playlist=p2Q_usTuZGs;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
   </section>
 
   <section id="journey">
@@ -151,6 +155,9 @@
 
 
   </section>
+
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
