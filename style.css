@@ -1,22 +1,36 @@
 
 /* Navigation */
 nav {
-  z-index: 999;
   width: 100%;
   height: 60px;
   padding: 0 30px;
-  background: black;
+  background: transparent;
 }
-
 
 #landing {
-  position: relative;
-  min-height: 90vh;
+  min-height: 100vh;
   width: 100%;
-  margin-top: 0;
-  margin-bottom: -5px;
+  margin-top: -60px;
+  background: url('./resources/graphics/landing.png');
 }
 
+.landingContainer {
+  width: 75%;
+  margin: auto;
+}
+
+.landingContainer div {
+  padding-top: 20%;
+}
+
+.landingContainer h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 48px;
+  padding: 8px;
+  color: #F6F6F6;
+  background: #D41F45;
+}
 
 /* Journey Section */
 #journey {
@@ -138,9 +152,8 @@ nav {
 }
 
 .j-5_modal-content2{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+<<<<<<< HEAD
 <<<<<<< HEAD
   flex-direction: column;
   position: absolute;
@@ -153,6 +166,11 @@ nav {
   position: relative;
   margin: 5.4% 36.4% 8%;
 >>>>>>> f3337c5ee9c161ce4a3abb4c67459f22032a9386
+=======
+  flex-direction: column;
+  position: relative;
+  margin: 5.4% 36.1% 8%;
+>>>>>>> 0bec657efb3d88211b23ad779625412efcd06976
   padding: 0px;
   border: 0px solid #888;
   z-index: 4;
@@ -178,7 +196,11 @@ nav {
 position: absolute;
 width: 100%;
 height: 488px;
+<<<<<<< HEAD
 left:0%;
+=======
+left:-1%;
+>>>>>>> 0bec657efb3d88211b23ad779625412efcd06976
 }
 
 #j-5b{
@@ -258,7 +280,11 @@ top: 80%;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
   z-index: 3;
+<<<<<<< HEAD
   /* overflow: hidden; */
+=======
+  overflow: hidden;
+>>>>>>> 0bec657efb3d88211b23ad779625412efcd06976
   text-align: center;
   vertical-align: center;
 }
@@ -269,6 +295,7 @@ top: 80%;
   margin-top: -32.5px;
   text-align: center;
   vertical-align: center;
+<<<<<<< HEAD
   z-index: 9
 }
 
@@ -292,6 +319,8 @@ top: 80%;
 
 #mlink{
 
+=======
+>>>>>>> 0bec657efb3d88211b23ad779625412efcd06976
 }
 
 .modal-content {
@@ -302,8 +331,15 @@ top: 80%;
   width: 80%;
   height: 0px;
   z-index: 4;
+<<<<<<< HEAD
   margin-top: -48%;
   margin-left:10%;
+=======
+  margin-top: -44%;
+  margin-left:10%;
+  text-align: center;
+  vertical-align:center;
+>>>>>>> 0bec657efb3d88211b23ad779625412efcd06976
 }
 
 .close {
