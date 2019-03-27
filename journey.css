@@ -18,7 +18,7 @@
 
 .prognav { position: fixed; width: 159px; top: 350px; right: 20px; z-index: 1000; }
 .prognav a { background: #D41F45; width: 159px; display: block; text-align: center; color: white; font: 900 24px Raleway; margin-bottom: 20px; }
-.prognav a:hover { background: #5E203A; }
+.prognav a:hover { background: #5E203A; color: white; text-decoration: none;  }
 
 
 .welcome { position: absolute; width: 258px; padding: 20px; background: #D41F45; text-align: center; color: white; top: 476px; }
@@ -27,17 +27,51 @@
 
 .tracker { width: 730px; margin: auto; height: 650px; padding-top: 70px; position: relative; text-align: center; }
 #pathway { margin: auto; width: 606px;  }
+#current { width: 100px; height: 100px; background: url('./resources/graphics/Website_Buttons-19.png'); }
+#current:hover { background: url('./resources/graphics/Website_Buttons-20.png'); margin-top: -3px; margin-left: 3px;  }
+#current:active { background: url('./resources/graphics/Website_Buttons-21.png'); margin-top: -3px; margin-left: 3px; }
 
-.p-1 { position: absolute; width: 126px; height: 127px; top: 190px; left: 0px; }
-.p-1 a { width: 100px; height: 100px; display: block; }
+#question { width: 75px; height: 75px; background: url('./resources/graphics/Website_Buttons-22.png'); }
+#question:hover { background: url('./resources/graphics/Website_Buttons-23.png'); }
+#question:active { background: url('./resources/graphics/Website_Buttons-24.png'); }
 
-.p-1 a.current { background: url('./resources/graphics/Website_Buttons-19.png'); }
-.p-1 a.current:hover { background: url('./resources/graphics/Website_Buttons-20.png'); margin-top: -3px; margin-left: 3px;  }
-.p-1 a.current:active { background: url('./resources/graphics/Website_Buttons-21.png'); }
+#check { width: 75px; height: 75px; background: url('./resources/graphics/Website_Buttons-25.png'); }
+#check:hover { background: url('./resources/graphics/Website_Buttons-26.png'); }
+#check:active { background: url('./resources/graphics/Website_Buttons-27.png'); }
 
-.p-2 { position: absolute; width: 126px; height: 127px; top: 303px; left: 225px; }
-.p-2 a { width: 80px; height: 80px; display: block; }
+.tracker button, .tracker button:hover, .tracker button:active { border: 0px; padding: 0px; }
+.tracker button.btn { background: none!important; border-radius: 100%; }
+.tracker .modal div { border: 0px; }
+.modal-content { margin-top: 0px; height: 423px; background: white; border-radius: 0px; }
 
-.p-2 a.question { background: url('./resources/graphics/Website_Buttons-22.png'); }
-.p-2 a.question:hover { background: url('./resources/graphics/Website_Buttons-23.png'); }
-.p-2 a.question:active { background: url('./resources/graphics/Website_Buttons-24.png'); }
+.tracker .modal-content h1 { margin: 0px; font: 700 16px/16px Raleway; color: #D41F45; text-transform: uppercase; text-align: left; padding-top: 211px; padding-left: 5px; }
+.tracker .modal-content h2 { margin: 0px; font: 900 25px/25px Raleway; color: #D41F45; text-transform: uppercase; text-align: left; padding-left: 5px; padding-top: 5px; }
+.tracker .modal-content p { margin: 0px; text-align: left; font: 13px/16px Open Sans; color: black; padding-top: 10px; padding-left: 5px; width: 370px; }
+
+.trackerbuttons { position: absolute; width: 110px; top: 0px; right: 0px; padding-top: 250px; }
+.trackerbuttons button { width: 200px; height: 35px; position: static; top: auto; left: auto; bottom: auto;  }
+button.bt-done { width: 85px; height: 35px!important; background: url('./resources/graphics/Website_Buttons-28.png') no-repeat; display: block; background-size: 85px; margin-top: 70px; }
+button.bt-done:hover { background-image: url('./resources/graphics/Website_Buttons-29.png'); background-size: 88px; background-repeat: no-repeat; }
+button.bt-done:active { background-image: url('./resources/graphics/Website_Buttons-32.png'); background-size: 85px; background-repeat: no-repeat; }
+
+button.bt-back { width: 85px; height: 35px!important; background: url('./resources/graphics/Website_Buttons-30.png') no-repeat; display: block; background-size: 85px; margin-top: 10px; }
+button.bt-back:hover { background-image: url('./resources/graphics/Website_Buttons-31.png'); background-size: 88px; background-repeat: no-repeat; }
+button.bt-back:active { background-image: url('./resources/graphics/Website_Buttons-33.png'); background-size: 85px; background-repeat: no-repeat; }
+
+.p-1 .modal-content { background: url('./resources/graphics/Task_Overlays-64.png'); background-size: 100%; background-repeat: no-repeat; }
+.p-2 .modal-content { background: url('./resources/graphics/Task_Overlays-65.png'); background-size: 100%; background-repeat: no-repeat; }
+.p-3 .modal-content { background: url('./resources/graphics/Task_Overlays-66.png'); background-size: 100%; background-repeat: no-repeat; }
+.p-4 .modal-content { background: url('./resources/graphics/Task_Overlays-67.png'); background-size: 100%; background-repeat: no-repeat; }
+.p-5 .modal-content { background: url('./resources/graphics/Task_Overlays-68.png'); background-size: 100%; background-repeat: no-repeat; }
+.p-6 .modal-content { background: url('./resources/graphics/Task_Overlays-69.png'); background-size: 100%; background-repeat: no-repeat; }
+.p-7 .modal-content { background: url('./resources/graphics/Task_Overlays-70.png'); background-size: 100%; background-repeat: no-repeat; }
+.p-8 .modal-content { background: url('./resources/graphics/Task_Overlays-71.png'); background-size: 100%; background-repeat: no-repeat; }
+
+.p-1 button.btn { position: absolute; top: 190px; left: 0px; }
+.p-2 button.btn { position: absolute; top: 313px; left: 225px; }
+.p-3 button.btn { position: absolute; top: 483px; left: 225px; }
+.p-4 button.btn { position: absolute; top: 603px; left: 400px; }
+.p-5 button.btn { position: absolute; top: 393px; left: 423px; }
+.p-6 button.btn { position: absolute; top: 203px; left: 423px; }
+.p-7 button.btn { position: absolute; top: 43px; left: 520px; }
+.p-8 button.btn { position: absolute; top: 250px; left: 615px; }

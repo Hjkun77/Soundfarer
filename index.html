@@ -15,18 +15,16 @@
 </head>
 <body>
 
-  <nav class="flex">
+  <nav class="flex" id='navbar'>
     <img src="./resources/logo/logo.svg" alt="logo">
   </nav>
 
   <section id="landing">
-    <div class="landingContainer">
-      <div>
-        <h1 style="width: 458px;">This is for music</h1>
-        <h1 style="width: 510px;">This is for passion</h1>
-        <h1 style="width: 410px;">This is for you</h1>
-      </div>
-    </div>
+    <video style="min-height: 90vh; min-width: 100%;" autoplay loop>
+      <source src="./resources/video/loop.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+    </video>
+    <!-- <iframe style="min-height: 95vh; min-width: 100%;" src="https://www.youtube.com/embed/p2Q_usTuZGs?autoplay=1&controls=0&loop=1&playlist=p2Q_usTuZGs;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
   </section>
 
   <section id="journey">
@@ -52,7 +50,8 @@
     alt="logo" id="j-6">
 
     <div id="j-5_id01" class="modal">
-      <div onclick="document.getElementById('j-5_id01').style.display='none'" class="close"></div>
+      <div onclick="document.getElementById('j-5_id01').style.display='none'" class="close">
+      </div>
       <div class="j-5_modal-content">
         <div class="container" style="width:102%;">
           <img src="./resources/graphics/Sign-Up Overlay.png" id="j-5_modal-img" alt="graphics 9a">
@@ -94,14 +93,11 @@
               <div class="container">
                 <img src="./resources/graphics/STORIES_MOONWLK_Overlay.png" id="modal-img" alt="graphics 9a">
                 <div class="modal-links">
-                  <div class="mlink">
-                    <img src="./resources/portraits/Artist Portraits-57.png" id="mlink" alt="graphics 9a" onclick="document.getElementById('id02').style.display='block'">
+                  <div class="mlink" onclick="document.getElementById('id02').style.display='block'; document.getElementById('id01').style.display='none'">
                   </div>
-                  <div class="mlink">
-                    <img src="./resources/portraits/Artist Portraits-58.png" id="mlink" alt="graphics 9a" onclick="document.getElementById('id03').style.display='block'">
+                  <div class="mlink" onclick="document.getElementById('id03').style.display='block'; document.getElementById('id01').style.display='none'">
                   </div>
-                  <div class="mlink">
-                    <img src="./resources/portraits/Artist Portraits-59.png" id="mlink" style:"margin-right:0%;" alt="graphics 9a" onclick="document.getElementById('id04').style.display='block'">
+                  <div class="mlink" onclick="document.getElementById('id04').style.display='block'; document.getElementById('id01').style.display='none'">
                   </div>
                 </div>
               </div>
@@ -110,7 +106,7 @@
 
         <div id="id02" class="modal">
           <div onclick="document.getElementById('id02').style.display='none'" class="close"></div>
-          <div class="modal-content">
+          <div class="modal-content" id="id02b">
             <div class="container">
               <img src="./resources/graphics/Artist Overlay-68.png" id="modal-img" alt="graphics 9a">
             </div>
@@ -119,7 +115,7 @@
 
       <div id="id03" class="modal">
         <div onclick="document.getElementById('id03').style.display='none'" class="close"></div>
-        <div class="modal-content">
+        <div class="modal-content" id="id03b">
           <div class="container">
             <img src="./resources/graphics/STORIES MOONWLK Overlay (1).png" id="modal-img" alt="graphics 9a">
           </div>
@@ -128,7 +124,7 @@
 
     <div id="id04" class="modal">
       <div onclick="document.getElementById('id04').style.display='none'" class="close"></div>
-      <div class="modal-content">
+      <div class="modal-content" id="id04b">
         <div class="container">
           <img src="./resources/graphics/STORIES MOONWLK Overlay (2).png" id="modal-img" alt="graphics 9a">
         </div>
@@ -168,6 +164,9 @@
 
 
   </section>
+
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
