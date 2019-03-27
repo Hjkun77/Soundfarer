@@ -75,3 +75,20 @@ button.bt-back:active { background-image: url('./resources/graphics/Website_Butt
 .p-6 button.btn { position: absolute; top: 203px; left: 423px; }
 .p-7 button.btn { position: absolute; top: 43px; left: 520px; }
 .p-8 button.btn { position: absolute; top: 250px; left: 615px; }
+
+
+.recordplaces { margin-top: 30px; }
+
+.recordplaces div { display: inline-block; }
+.recordplaces button { display: inline-block; width: 173px; height: 173px; border-radius: 100%; background: transparent; margin-right: 25px; margin-bottom: 30px; border: 0px; }
+#label1 button { background-image:url('./resources/graphics/Places_NoOutline-82.png'); }
+#label2 button { background-image:url('./resources/graphics/Places_NoOutline-83.png'); }
+#label3 button { background-image:url('./resources/graphics/Places_NoOutline-84.png'); }
+#label4 button { background-image:url('./resources/graphics/Places_NoOutline-85.png'); }
+#label5 button { background-image:url('./resources/graphics/Places_NoOutline-86.png'); }
+#label6 button { background-image:url('./resources/graphics/Places_NoOutline-87.png'); }
+
+#labelinfo { width: 800px; height: 400px; position: relative; left: -100px; }
+#labelinfo img { width: 295px; position: absolute; top: 20px;  }
+#labelinfo h1 { font: 900 36px/36px Raleway; color: #D41F45; width: 480px; position: absolute; right: 0px; }
+#labelinfo p { width: 480px; position: absolute; right: 0px; font: 18px/22px Open Sans; top: 50px; }
