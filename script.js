@@ -88,6 +88,7 @@ function toggleTask8() {
 }
 
 const RecordLabel = document.querySelector('#recordlabel')
+const RecordLabelImg = document.querySelector('#recordlabelimg');
 const Label1Image = document.querySelector('#label1-image');
 const Label2Image = document.querySelector('#label2-image');
 const Label3Image = document.querySelector('#label3-image');
@@ -97,35 +98,77 @@ const Label6Image = document.querySelector('#label6-image');
 
 function toggleLabel1() {
   RecordLabel.classList.replace('recordlabel', 'none')
+  RecordLabelImg.classList.replace('none', 'recordlabelimg')
   Label1Image.classList.remove('none')
+  Label2Image.classList.add('none')
+  Label3Image.classList.add('none')
+  Label4Image.classList.add('none')
+  Label5Image.classList.add('none')
+  Label6Image.classList.add('none')
 }
 
 function toggleLabel2() {
   RecordLabel.classList.replace('recordlabel', 'none')
+  RecordLabelImg.classList.replace('none', 'recordlabelimg')
   Label2Image.classList.remove('none')
+  Label1Image.classList.add('none')
+  Label3Image.classList.add('none')
+  Label4Image.classList.add('none')
+  Label5Image.classList.add('none')
+  Label6Image.classList.add('none')
 }
 
 function toggleLabel3() {
   RecordLabel.classList.replace('recordlabel', 'none')
+  RecordLabelImg.classList.replace('none', 'recordlabelimg')
   Label3Image.classList.remove('none')
+  Label2Image.classList.add('none')
+  Label1Image.classList.add('none')
+  Label4Image.classList.add('none')
+  Label5Image.classList.add('none')
+  Label6Image.classList.add('none')
 }
 
 function toggleLabel4() {
   RecordLabel.classList.replace('recordlabel', 'none')
+  RecordLabelImg.classList.replace('none', 'recordlabelimg')
   Label4Image.classList.remove('none')
+  Label2Image.classList.add('none')
+  Label3Image.classList.add('none')
+  Label1Image.classList.add('none')
+  Label5Image.classList.add('none')
+  Label6Image.classList.add('none')
 }
 
 function toggleLabel5() {
   RecordLabel.classList.replace('recordlabel', 'none')
+  RecordLabelImg.classList.replace('none', 'recordlabelimg')
   Label5Image.classList.remove('none')
+  Label2Image.classList.add('none')
+  Label3Image.classList.add('none')
+  Label4Image.classList.add('none')
+  Label1Image.classList.add('none')
+  Label6Image.classList.add('none')
 }
 
 function toggleLabel6() {
   RecordLabel.classList.replace('recordlabel', 'none')
+  RecordLabelImg.classList.replace('none', 'recordlabelimg')
   Label6Image.classList.remove('none')
+  Label2Image.classList.add('none')
+  Label3Image.classList.add('none')
+  Label4Image.classList.add('none')
+  Label5Image.classList.add('none')
+  Label1Image.classList.add('none')
+}
+
+function toggleRecordLabel() {
+  RecordLabel.classList.replace('none', 'recordlabel');
+  RecordLabelImg.classList.replace('recordlabelimg', 'none')
 }
 
 const GigLocation = document.querySelector('#giglocation')
+const GigLocationImg = document.querySelector('#giglocationimg');
 const Gig1Image = document.querySelector('#gig1-image');
 const Gig2Image = document.querySelector('#gig2-image');
 const Gig3Image = document.querySelector('#gig3-image');
@@ -133,36 +176,83 @@ const Gig4Image = document.querySelector('#gig4-image');
 const Gig5Image = document.querySelector('#gig5-image');
 const Gig6Image = document.querySelector('#gig6-image');
 
+function toggleGigLocation() {
+  GigLocation.classList.replace('none', 'giglocation');
+  GigLocationImg.classList.replace('giglocationimg', 'none')
+}
+
 function toggleGig1() {
   GigLocation.classList.replace('giglocation', 'none')
+  GigLocationImg.classList.replace('none', 'giglocationimg')
   Gig1Image.classList.remove('none')
+  Gig2Image.classList.add('none')
+  Gig3Image.classList.add('none')
+  Gig4Image.classList.add('none')
+  Gig5Image.classList.add('none')
+  Gig6Image.classList.add('none')
+
 }
 
 function toggleGig2() {
   GigLocation.classList.replace('giglocation', 'none')
+  GigLocationImg.classList.replace('none', 'giglocationimg')
   Gig2Image.classList.remove('none')
+  Gig1Image.classList.add('none')
+  Gig3Image.classList.add('none')
+  Gig4Image.classList.add('none')
+  Gig5Image.classList.add('none')
+  Gig6Image.classList.add('none')
+
 }
 
 
 function toggleGig3() {
   GigLocation.classList.replace('giglocation', 'none')
+  GigLocationImg.classList.replace('none', 'giglocationimg')
   Gig3Image.classList.remove('none')
+  Gig2Image.classList.add('none')
+  Gig1Image.classList.add('none')
+  Gig4Image.classList.add('none')
+  Gig5Image.classList.add('none')
+  Gig6Image.classList.add('none')
+
 }
 
 
 function toggleGig4() {
   GigLocation.classList.replace('giglocation', 'none')
+  GigLocationImg.classList.replace('none', 'giglocationimg')
   Gig4Image.classList.remove('none')
+  Gig2Image.classList.add('none')
+  Gig3Image.classList.add('none')
+  Gig1Image.classList.add('none')
+  Gig5Image.classList.add('none')
+  Gig6Image.classList.add('none')
+
 }
 
 
 function toggleGig5() {
   GigLocation.classList.replace('giglocation', 'none')
+  GigLocationImg.classList.replace('none', 'giglocationimg')
   Gig5Image.classList.remove('none')
+  Gig2Image.classList.add('none')
+  Gig3Image.classList.add('none')
+  Gig4Image.classList.add('none')
+  Gig1Image.classList.add('none')
+  Gig6Image.classList.add('none')
+
 }
 
 
 function toggleGig6() {
   GigLocation.classList.replace('giglocation', 'none')
+  GigLocationImg.classList.replace('none', 'giglocationimg')
   Gig6Image.classList.remove('none')
+  Gig2Image.classList.add('none')
+  Gig3Image.classList.add('none')
+  Gig4Image.classList.add('none')
+  Gig5Image.classList.add('none')
+  Gig1Image.classList.add('none')
+
 }

@@ -474,3 +474,78 @@ button.bt-back:active {
   font-style: italic;
   color: black;
 }
+
+
+.recordgig-container {
+  margin-bottom: 73px;
+}
+
+.recordgig-container button{
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  background: transparent;
+  border: 0px;
+}
+
+#back-arrow button {
+  background-image: url('./resources/buttons/Website Buttons-35.png')
+}
+
+#label1-icon button {
+  background-image: url('./resources/icons/Places (No Outline)-82.png')
+}
+
+/* #label1-icon:active button {
+  background-image: url('./resources/icons/Places-82.png')
+} */
+
+#label2-icon button {
+  background-image: url('./resources/icons/Places (No Outline)-83.png')
+}
+/*
+#label2-icon:active button {
+  background-image: url('./resources/icons/Places-83.png')
+} */
+
+#label3-icon button {
+  background-image: url('./resources/icons/Places (No Outline)-84.png')
+}
+
+#label4-icon button {
+  background-image: url('./resources/icons/Places (No Outline)-85.png')
+}
+
+#label5-icon button {
+  background-image: url('./resources/icons/Places (No Outline)-86.png')
+}
+
+#label6-icon button {
+  background-image: url('./resources/icons/Places (No Outline)-87.png')
+}
+
+
+#gig1-icon button {
+  background-image: url('./resources/icons/Places-76.png')
+}
+
+#gig2-icon button {
+  background-image: url('./resources/icons/Places-77.png')
+}
+
+#gig3-icon button {
+  background-image: url('./resources/icons/Places-78.png')
+}
+
+#gig4-icon button {
+  background-image: url('./resources/icons/Places-79.png')
+}
+
+#gig5-icon button {
+  background-image: url('./resources/icons/Places-80.png')
+}
+
+#gig6-icon button {
+  background-image: url('./resources/icons/Places-81.png')
+}
