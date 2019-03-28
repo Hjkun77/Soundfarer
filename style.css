@@ -4,14 +4,14 @@ nav {
   width: 100%;
   height: 60px;
   padding: 0 30px;
-  background: transparent;
+  background: black;
 }
 
 #landing {
   min-height: 100vh;
   width: 100%;
-  margin-top: -60px;
-  background: url('./resources/graphics/landing.png');
+  margin-top: 0;
+  margin-bottom: -5px;
 }
 
 .landingContainer {
@@ -76,10 +76,104 @@ nav {
 .j-4 {
   position: relative;
   width: 417px;
-  height: 508px;
+  height: 438px;
   margin-top: -16%;
   margin-bottom: -6%;
   left: 55%;
+}
+
+.main-signup { position: relative; left: 55%; width: 417px; text-align: center;  }
+
+.main-signup button, .main-signup button:hover, .main-signup button:active {
+  border: 0px;
+  padding: 0px;
+}
+
+.main-signup button.btn {
+  background: none !important;
+  border-radius: 50px;
+padding-right: 8px;
+}
+
+#j-5 {
+  width: 180px;
+  height: 94px;
+  border-radius: 30px;
+  background-size: 186px 94px;
+  background-repeat: no-repeat;
+  border: none;
+  background-image: url("./resources/buttons/Website_Buttons-16.png");
+margin: auto;
+}
+
+#j-5:hover {
+  background-image: url("./resources/buttons/Website_Buttons-17.png");
+}
+
+#j-5:active {
+  background-image: url("./resources/buttons/Website_Buttons-18.png");
+}
+
+.j-5_modal-content{
+  position: absolute;
+  background: url('./resources/graphics/Sign-Up Overlay.png') no-repeat;
+background-size: cover;
+  padding: 0px;
+  border: 0px solid #888;
+  width: 100%;
+  height: 480px;
+  z-index: 4;
+box-shadow: 0px;
+}
+
+.main-signup .modal-content { height: 480px!important; box-shadow: 0px; }
+
+.signup-container {
+  width: 100%;
+  margin-top: 58%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#name {
+  width: 78%;
+  height: 30px;
+  color: black;
+  padding: 14px 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#j-5_modal-img{
+position: absolute;
+width: 100%;
+height: 488px;
+left:0%;
+}
+
+#j-5b{
+margin-top: 20px;
+  width: 180px;
+  height: 100px;
+  background: url("./resources/buttons/Website Buttons-44.png");
+  border-radius: 0px;
+  background-size: 173px;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  border: none;
+}
+
+#j-5b:hover{
+  background: url("./resources/buttons/Website Buttons-45.png");
+  background-size: 173px;
+  background-repeat: no-repeat;
+}
+
+#j-5b:active{
+  background: url("./resources/buttons/Website Buttons-46.png");
+  background-size: 173px;
+  background-repeat: no-repeat;
 }
 
 .j-4 img {
@@ -98,7 +192,7 @@ nav {
   margin-left: -25px;
 }
 
-.j-4 div>>h3 {
+.j-4 div >h3 {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -106,106 +200,7 @@ nav {
   text-align: center;
 }
 
-#j-5 {
-  position: relative;
-  left: 62.5%;
-  margin-top: -60%;
-  width: 180px;
-  height: 94px;
-  border-radius: 30px;
-  background-size: 186px 94px;
-  background-repeat: no-repeat;
-  background-color: white;
-  border: none;
-  background-image: url("./resources/buttons/Website_Buttons-16.png");
-}
 
-#j-5:hover {
-  background-image: url("./resources/buttons/Website_Buttons-17.png");
-}
-
-#j-5:active {
-  background-image: url("./resources/buttons/Website_Buttons-18.png");
-}
-
-#j-6 {
-  position: relative;
-  float: right;
-  width: 356px;
-  height: 623px;
-  margin-right: -2.1%;
-  margin-top: -5%;
-  z-index: 2;
-}
-
-.j-5_modal-content{
-  position: relative;
-  background-color: #fefefe;
-  margin: 5.4% auto 8%;
-  padding: 0px;
-  border: 0px solid #888;
-  width: 38%;
-  height: 480px;
-  z-index: 4;
-  margin-top: -625px;
-}
-
-.j-5_modal-content2{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  margin: 5.4% 36.4% 8%;
-  padding: 0px;
-  border: 0px solid #888;
-  z-index: 4;
-  margin-top: -315px;
-  width:30%;
-  height: 100px;
-
-}
-
-#name {
-  width: 90%;
-  height: 26px;
-  color: black;
-  padding: 14px 20px;
-  margin: 0;
-  border: 2px solid black;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-#j-5_modal-img{
-  position: relative;
-width: 508px;
-height: 488px;
-}
-
-#j-5b{
-  position: relative;
-  width: 180px;
-height: 100px;
-left:24%;
-top: 80%;
-  background: url("./resources/buttons/Website Buttons-44.png");
-  border-radius: 0px;
-  background-size: 173px 79px;
-  background-repeat: no-repeat;
-  background-color: inherit;
-  border: none;
-}
-
-#j-5b:hover{
-  background: url("./resources/buttons/Website Buttons-45.png");
-  background-size: 173px 79px;
-  background-repeat: no-repeat;
-}
-
-#j-5b:active{
-  background: url("./resources/buttons/Website Buttons-46.png");
-  background-size: 173px 79px;
-  background-repeat: no-repeat;
-}
 
 /* Stories Section */
 
@@ -248,38 +243,6 @@ top: 80%;
   margin: auto;
 }
 
-.modal{
-  display: none;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 107%;
-  overflow: auto;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.4);
-  z-index: 4;
-  overflow: hidden;
-  text-align: center;
-}
-
-#modal-img{
-  width: 1053px;
-  height: 583px;
-  margin-top: -32.5px;
-}
-
-.modal-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: 5.4% auto 8%;
-  padding: 0px;
-  border: 0px solid #888;
-  width: 80%;
-  height: 550px;
-  z-index: 4;
-  margin-top: -625px;
-}
 
 .close {
   width: 100%;
@@ -333,3 +296,60 @@ top: 80%;
 #a-4 {
   margin-top: -20%;
 }
+
+.s-2 { position: relative; }
+
+.s-2 button, .s-2 button:hover, .s-2 button:active {
+  border: 0px;
+  padding: 0px;
+}
+
+.s-2 button.btn {
+  background: none !important;
+}
+
+@media screen and (min-width: 768px) {
+  #stories .modal-dialog {
+    max-width: 1153px!important;
+    margin: 20px auto; border: 0px;
+  }
+
+}
+
+#stories .modal-content { width: 1153px!important; height: 683px!important; border: 0px; position: relative; }
+.stories-container { width: 580px; margin: 70px; }
+.stories-container h1 { font: 900 48px/48px Raleway; text-transform: uppercase; color: #D41F45; }
+.stories-container h2 { font: 400 24px/24px Raleway; text-transform: uppercase; color: white; }
+.stories-container p { font: 18px/24px Open Sans; color: white; margin-top: 15px; }
+.otherstories { text-align: right; position: absolute; top: 520px; right: 60px; color: white; }
+.otherstories button { position: static!important; width: 88px; height: 88px; border-radius: 100%; padding: 0px; left: 0px; margin-left: 30px; margin-top: 15px; }
+.otherstories button div { width: 88px; height: 88px; border-radius: 100%; background-size: 88px; display: inline-block; }
+
+#b1circ { background-image: url('./resources/portraits/Artist Portraits-56.png'); }
+#b2circ { background-image: url('./resources/portraits/Artist Portraits-57.png'); }
+#b3circ { background-image: url('./resources/portraits/Artist Portraits-58.png'); }
+#b4circ { background-image: url('./resources/portraits/Artist Portraits-59.png'); }
+
+.artist1 .stories-container { margin-top: 267px; }
+.artist1 button { position: absolute; top: 175px; left: 5px; }
+.artist1 .modal-content { background: url('./resources/graphics/Artist Overlay-67.png'); }
+#artb1 { width: 153px; height: 42px; background: url('./resources/graphics/Website Buttons-47.png') no-repeat; }
+#artb1:active { background: url('./resources/graphics/Website Buttons-48.png') no-repeat; }
+
+.artist2 .stories-container { margin-top: 267px; }
+.artist2 button { position: absolute; top: 160px; left: 195px; }
+.artist2 .modal-content { background: url('./resources/graphics/Artist Overlay-68.png'); }
+#artb2 { width: 164px; height: 59px; background: url('./resources/graphics/Website Buttons-51.png') no-repeat; }
+#artb2:active { background: url('./resources/graphics/Website Buttons-52.png') no-repeat; }
+
+.artist3 .stories-container { margin-top: 267px; }
+.artist3 button { position: absolute; top: 328px; left: -5px; }
+.artist3 .modal-content { background: url('./resources/graphics/Artist Overlay-69.png'); }
+#artb3 { width: 179px; height: 59px; background: url('./resources/graphics/Website Buttons-49.png') no-repeat; }
+#artb3:active { background: url('./resources/graphics/Website Buttons-50.png') no-repeat; }
+
+.artist4 .stories-container { margin-top: 70px; }
+.artist4 button { position: absolute; top: 328px; left: 195px; }
+.artist4 .modal-content { background: url('./resources/graphics/Artist Overlay-70.png'); }
+#artb4 { width: 169px; height: 59px; background: url('./resources/graphics/Website Buttons-53.png') no-repeat; }
+#artb4:active { background: url('./resources/graphics/Website Buttons-54.png') no-repeat; }
