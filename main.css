@@ -136,3 +136,7 @@ a, button {
 .none {
   display: none
 }
+
+.block {
+  display: block
+}

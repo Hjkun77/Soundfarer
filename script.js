@@ -1,3 +1,21 @@
+const Index = document.querySelector('#index')
+const Progress = document.querySelector('#progress')
+const UserName = document.getElementById("username")
+
+function toggleProgress() {
+  const InputValue = document.getElementById("name").value;
+  if (InputValue === "") {
+    UserName.innerHTML = "User"
+    alert('Please input display name')
+  } else {
+    UserName.innerHTML = InputValue
+    Index.classList.replace('block', 'none')
+    Progress.classList.replace('none', 'block')
+    window.scrollTo(0, 0);
+  }
+
+}
+
 const Circle1 = document.querySelector('#circle1');
 const Circle2 = document.querySelector('#circle2');
 const Circle3 = document.querySelector('#circle3');
