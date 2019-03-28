@@ -86,3 +86,83 @@ function toggleTask8() {
   Circle7.classList.replace('current', 'check');
   Circle8.classList.replace('question', 'current')
 }
+
+const RecordLabel = document.querySelector('#recordlabel')
+const Label1Image = document.querySelector('#label1-image');
+const Label2Image = document.querySelector('#label2-image');
+const Label3Image = document.querySelector('#label3-image');
+const Label4Image = document.querySelector('#label4-image');
+const Label5Image = document.querySelector('#label5-image');
+const Label6Image = document.querySelector('#label6-image');
+
+function toggleLabel1() {
+  RecordLabel.classList.replace('recordlabel', 'none')
+  Label1Image.classList.remove('none')
+}
+
+function toggleLabel2() {
+  RecordLabel.classList.replace('recordlabel', 'none')
+  Label2Image.classList.remove('none')
+}
+
+function toggleLabel3() {
+  RecordLabel.classList.replace('recordlabel', 'none')
+  Label3Image.classList.remove('none')
+}
+
+function toggleLabel4() {
+  RecordLabel.classList.replace('recordlabel', 'none')
+  Label4Image.classList.remove('none')
+}
+
+function toggleLabel5() {
+  RecordLabel.classList.replace('recordlabel', 'none')
+  Label5Image.classList.remove('none')
+}
+
+function toggleLabel6() {
+  RecordLabel.classList.replace('recordlabel', 'none')
+  Label6Image.classList.remove('none')
+}
+
+const GigLocation = document.querySelector('#giglocation')
+const Gig1Image = document.querySelector('#gig1-image');
+const Gig2Image = document.querySelector('#gig2-image');
+const Gig3Image = document.querySelector('#gig3-image');
+const Gig4Image = document.querySelector('#gig4-image');
+const Gig5Image = document.querySelector('#gig5-image');
+const Gig6Image = document.querySelector('#gig6-image');
+
+function toggleGig1() {
+  GigLocation.classList.replace('giglocation', 'none')
+  Gig1Image.classList.remove('none')
+}
+
+function toggleGig2() {
+  GigLocation.classList.replace('giglocation', 'none')
+  Gig2Image.classList.remove('none')
+}
+
+
+function toggleGig3() {
+  GigLocation.classList.replace('giglocation', 'none')
+  Gig3Image.classList.remove('none')
+}
+
+
+function toggleGig4() {
+  GigLocation.classList.replace('giglocation', 'none')
+  Gig4Image.classList.remove('none')
+}
+
+
+function toggleGig5() {
+  GigLocation.classList.replace('giglocation', 'none')
+  Gig5Image.classList.remove('none')
+}
+
+
+function toggleGig6() {
+  GigLocation.classList.replace('giglocation', 'none')
+  Gig6Image.classList.remove('none')
+}

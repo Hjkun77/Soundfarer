@@ -132,3 +132,11 @@ a, button {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+.none {
+  display: none
+}
+
+.inline-block {
+  display: inline-block !important;
+}

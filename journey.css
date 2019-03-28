@@ -28,7 +28,7 @@
   bottom: 0px;
 }
 
-.recordlabel {
+.recordlabel, .recordlabelimg {
   margin: auto;
   margin-top: 252px;
   width: 615px;
@@ -40,7 +40,7 @@
   text-transform: uppercase;
 }
 
-.giglocation {
+.giglocation, .giglocationimg {
   margin: auto;
   margin-top: 100px;
   width: 615px;
@@ -440,20 +440,20 @@ button.bt-back:active {
   background-image: url('./resources/graphics/Places_NoOutline-81.png');
 }
 
-#labelinfo, #giginfo {
+.labelinfo, .giginfo {
   width: 800px;
   height: 400px;
   position: relative;
   left: -100px;
 }
 
-#labelinfo img, #giginfo img {
+.labelinfo img, .giginfo img {
   width: 295px;
   position: absolute;
   top: 20px;
 }
 
-#labelinfo h1, #giginfo h1 {
+.labelinfo h1, .giginfo h1 {
   font: 900 36px/36px Raleway;
   color: #D41F45;
   width: 460px;
@@ -461,7 +461,7 @@ button.bt-back:active {
   right: 0px;
 }
 
-#labelinfo p, #giginfo p {
+.labelinfo p, .giginfo p {
   width: 460px;
   position: absolute;
   right: 0px;
@@ -469,7 +469,7 @@ button.bt-back:active {
   top: 50px;
 }
 
-#labelinfo p a, #giginfo p a {
+.labelinfo p a, .giginfo p a {
   text-decoration: none;
   font-style: italic;
   color: black;
