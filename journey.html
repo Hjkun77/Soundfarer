@@ -36,7 +36,7 @@
 
 <div class="welcome">
   <h3>Welcome,</h3>
-  <h2>USER</h2>
+  <h2 id="username">USER</h2>
 </div>
 
 <div class="tracker">
@@ -46,7 +46,7 @@
   <!-- Button trigger modal -->
   <div class="p-1">
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#task1">
-      <div id="current"></div>
+      <div class="current" id="circle1"></div>
     </button>
 
   <div class="modal fade" id="task1" tabindex="-1" role="dialog" aria-labelledby="Task1Content" aria-hidden="true">
@@ -58,7 +58,7 @@
           <p>It’s important to know what kind of artist or band you want to be going forward. The kind of sound you want to create and the aesthetic that guides the way your brand presents itself to the public are important things to consider. </p>
         </div>
         <div class="trackerbuttons">
-          <button class="bt-done" data-dismiss="modal"></button> <!-- I'm Done! -->
+          <button class="bt-done" data-dismiss="modal" onclick="toggleTask2()"></button> <!-- I'm Done! -->
           <button class="bt-back" data-dismiss="modal"></button> <!-- Go Back -->
         </div>
 
@@ -69,8 +69,8 @@
 
 
 <div class="p-2">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#task2">
-    <div id="check"></div>
+  <button type="button" id="task2-button" class="btn btn-primary" data-toggle="modal" data-target="#task2" disabled>
+    <div class="question" id="circle2"></div>
   </button>
 
 <div class="modal fade" id="task2" tabindex="-1" role="dialog" aria-labelledby="Task2Content" aria-hidden="true">
@@ -82,8 +82,8 @@
         <p>Your first gig is always going to be important: it’s your first taste of playing on stage to a crowd of people. Whether that crowd of people range from being a handful to a stacked crowd, what matters is the experience you get from it.</p>
       </div>
       <div class="trackerbuttons">
-        <button class="bt-done" data-dismiss="modal"></button> <!-- I'm Done! -->
-        <button class="bt-back" data-dismiss="modal"></button> <!-- Go Back -->
+        <button class="bt-done" data-dismiss="modal" onclick="toggleTask3()"></button> <!-- I'm Done! -->
+        <button class="bt-back" data-dismiss="modal" onclick="toggleTask1()"></button> <!-- Go Back -->
       </div>
 
     </div>
@@ -92,8 +92,8 @@
 </div>
 
 <div class="p-3">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#task3">
-    <div id="question"></div>
+  <button type="button" id="task3-button" class="btn btn-primary" data-toggle="modal" data-target="#task3" disabled>
+    <div class="question" id="circle3"></div>
   </button>
 
 <div class="modal fade" id="task3" tabindex="-1" role="dialog" aria-labelledby="Task3Content" aria-hidden="true">
@@ -105,8 +105,8 @@
         <p>You have to get your sound out there, and one of the ways you can start that off is by releasing a song that you’ve written. You could record the song yourself, or you could find an independent record label and pay them to help you produce, mix, and master your song.</p>
       </div>
       <div class="trackerbuttons">
-        <button class="bt-done" data-dismiss="modal"></button> <!-- I'm Done! -->
-        <button class="bt-back" data-dismiss="modal"></button> <!-- Go Back -->
+        <button class="bt-done" data-dismiss="modal" onclick="toggleTask4()"></button> <!-- I'm Done! -->
+        <button class="bt-back" data-dismiss="modal" onclick="toggleTask2()"></button> <!-- Go Back -->
       </div>
 
     </div>
@@ -115,8 +115,8 @@
 </div>
 
 <div class="p-4">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#task4">
-    <div id="question"></div>
+  <button type="button" id="task4-button" class="btn btn-primary" data-toggle="modal" data-target="#task4" disabled>
+    <div class="question" id="circle4"></div>
   </button>
 
 <div class="modal fade" id="task4" tabindex="-1" role="dialog" aria-labelledby="Task4Content" aria-hidden="true">
@@ -128,8 +128,8 @@
         <p>Besides your sound, you have to make your presence in the local music scene known to everyone. Starting social media platforms is a good way to do that. You’ll give a chance for your audience to learn more about you and connect to you, and you can let them know your gig schedules and have an avenue for promoting yourself.</p>
       </div>
       <div class="trackerbuttons">
-        <button class="bt-done" data-dismiss="modal"></button> <!-- I'm Done! -->
-        <button class="bt-back" data-dismiss="modal"></button> <!-- Go Back -->
+        <button class="bt-done" data-dismiss="modal" onclick="toggleTask5()"></button> <!-- I'm Done! -->
+        <button class="bt-back" data-dismiss="modal" onclick="toggleTask3()"></button> <!-- Go Back -->
       </div>
 
     </div>
@@ -138,8 +138,8 @@
 </div>
 
 <div class="p-5">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#task5">
-    <div id="question"></div>
+  <button type="button" id="task5-button" class="btn btn-primary" data-toggle="modal" data-target="#task5" disabled>
+    <div class="question" id="circle5"></div>
   </button>
 
 <div class="modal fade" id="task5" tabindex="-1" role="dialog" aria-labelledby="Task5Content" aria-hidden="true">
@@ -153,8 +153,8 @@
 </p>
       </div>
       <div class="trackerbuttons">
-        <button class="bt-done" data-dismiss="modal"></button> <!-- I'm Done! -->
-        <button class="bt-back" data-dismiss="modal"></button> <!-- Go Back -->
+        <button class="bt-done" data-dismiss="modal" onclick="toggleTask6()"></button> <!-- I'm Done! -->
+        <button class="bt-back" data-dismiss="modal" onclick="toggleTask4()"></button> <!-- Go Back -->
       </div>
 
     </div>
@@ -163,8 +163,8 @@
 </div>
 
 <div class="p-6">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#task6">
-    <div id="question"></div>
+  <button type="button" id="task6-button" class="btn btn-primary" data-toggle="modal" data-target="#task6" disabled>
+    <div class="question" id="circle6"></div>
   </button>
 
 <div class="modal fade" id="task6" tabindex="-1" role="dialog" aria-labelledby="Task6Content" aria-hidden="true">
@@ -176,8 +176,8 @@
         <p>An extended play! More than a single, but not quite an album. The process of creating your extended play is executed similarly to how you did your single, except there are more songs involved. Again, you could either do this on your own, or you could check out the database to see which record labels you could visit to help you out in producing your songs.</p>
       </div>
       <div class="trackerbuttons">
-        <button class="bt-done" data-dismiss="modal"></button> <!-- I'm Done! -->
-        <button class="bt-back" data-dismiss="modal"></button> <!-- Go Back -->
+        <button class="bt-done" data-dismiss="modal" onclick="toggleTask7()"></button> <!-- I'm Done! -->
+        <button class="bt-back" data-dismiss="modal" onclick="toggleTask5()" ></button> <!-- Go Back -->
       </div>
 
     </div>
@@ -186,8 +186,8 @@
 </div>
 
 <div class="p-7">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#task7">
-    <div id="question"></div>
+  <button type="button" id="task7-button" class="btn btn-primary" data-toggle="modal" data-target="#task7" disabled>
+    <div class="question" id="circle7"></div>
   </button>
 
 <div class="modal fade" id="task7" tabindex="-1" role="dialog" aria-labelledby="Task7Content" aria-hidden="true">
@@ -200,8 +200,8 @@
           At this point, you should have completed your single and your EP. Try getting those songs on Spotify before continuing on to the next task.</p>
       </div>
       <div class="trackerbuttons">
-        <button class="bt-done" data-dismiss="modal"></button> <!-- I'm Done! -->
-        <button class="bt-back" data-dismiss="modal"></button> <!-- Go Back -->
+        <button class="bt-done" data-dismiss="modal" onclick="toggleTask8()"></button> <!-- I'm Done! -->
+        <button class="bt-back" data-dismiss="modal" onclick="toggleTask6()"></button> <!-- Go Back -->
       </div>
 
     </div>
@@ -210,8 +210,8 @@
 </div>
 
 <div class="p-8">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#task8">
-    <div id="question"></div>
+  <button type="button" id="task8-button" class="btn btn-primary" data-toggle="modal" data-target="#task8" disabled>
+    <div class="question" id="circle8"></div>
   </button>
 
 <div class="modal fade" id="task8" tabindex="-1" role="dialog" aria-labelledby="Task8Content" aria-hidden="true">
@@ -225,7 +225,7 @@
       </div>
       <div class="trackerbuttons">
         <button class="bt-done" data-dismiss="modal"></button> <!-- I'm Done! -->
-        <button class="bt-back" data-dismiss="modal"></button> <!-- Go Back -->
+        <button class="bt-back" data-dismiss="modal" onclick="toggleTask7()"></button> <!-- Go Back -->
       </div>
 
     </div>
