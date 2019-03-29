@@ -1,102 +1,564 @@
-#progress { background: #f6f6f6; min-height: 2300px; position: relative; }
+#progress {
+    background: #f6f6f6;
+    min-height: 2300px;
+    position: relative;
+}
 
-#side1 { position: absolute; right: 0px; top: 497px; }
+#side1 {
+    position: absolute;
+    right: 0px;
+    top: 497px;
+}
 
-#side2 { position: absolute; left: 0px; top: 1189px; }
+#side2 {
+    position: absolute;
+    left: 0px;
+    top: 1189px;
+}
 
-#bottom-left { position: absolute; left: 0px; bottom: 0px; }
-#bottom-right { position: absolute; right: 0px; bottom: 0px; }
+#bottom-left {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
 
-.recordlabel  { margin: auto; margin-top: 252px; width: 615px; }
-.recordlabel h2 { color: #D41F45; font: 900 36px/36px Raleway; text-transform: uppercase; }
+#bottom-right {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
 
-.giglocation { margin: auto; margin-top: 100px; width: 615px; }
-.giglocation h2 { color: #D41F45; font: 900 36px/46px Raleway; text-transform: uppercase; }
+.recordlabel,
+.recordlabelimg {
+    margin: auto;
+    margin-top: 252px;
+    width: 615px;
+}
 
-#topleft { position: absolute; left: 0px; top: 0px; }
-#topright { position: absolute; right: 0px; top: 0px; }
+.recordlabel h2 {
+    color: #D41F45;
+    font: 900 36px/36px Raleway;
+    text-transform: uppercase;
+}
 
-.prognav { position: fixed; width: 159px; top: 350px; right: 20px; z-index: 1000; }
-.prognav a { background: #D41F45; width: 159px; display: block; text-align: center; color: white; font: 900 24px Raleway; margin-bottom: 20px; }
-.prognav a:hover { background: #5E203A; color: white; text-decoration: none;  }
+.giglocation,
+.giglocationimg {
+    margin: auto;
+    margin-top: 100px;
+    width: 615px;
+}
+
+.giglocation h2 {
+    color: #D41F45;
+    font: 900 36px/46px Raleway;
+    text-transform: uppercase;
+}
+
+#topleft {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#topright {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.prognav {
+    position: fixed;
+    width: 159px;
+    top: 350px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.prognav a {
+    background: #D41F45;
+    width: 159px;
+    display: block;
+    text-align: center;
+    color: white;
+    font: 900 24px Raleway;
+    margin-bottom: 20px;
+}
+
+.prognav a:hover {
+    background: #5E203A;
+    color: white;
+    text-decoration: none;
+}
+
+.welcome {
+    position: absolute;
+    width: 258px;
+    padding: 20px;
+    background: #D41F45;
+    text-align: center;
+    color: white;
+    top: 476px;
+}
+
+.welcome h3 {
+    font: 25px/25px Raleway;
+}
+
+.welcome h2 {
+    font: 900 45px/45px Raleway;
+    text-transform: uppercase;
+}
+
+.tracker {
+    width: 730px;
+    margin: auto;
+    height: 650px;
+    padding-top: 70px;
+    position: relative;
+    text-align: center;
+}
+
+#pathway {
+    margin: auto;
+    width: 606px;
+}
+
+.current {
+    width: 100px;
+    height: 100px;
+    background: url('./resources/graphics/Website_Buttons-19.png');
+}
+
+.current:hover {
+    background: url('./resources/graphics/Website_Buttons-20.png');
+    margin-top: -3px;
+    margin-left: 3px;
+}
+
+.current:active {
+    background: url('./resources/graphics/Website_Buttons-21.png');
+    margin-top: -3px;
+    margin-left: 3px;
+}
+
+.question {
+    width: 75px;
+    height: 75px;
+    background: url('./resources/graphics/Website_Buttons-22.png');
+}
+
+.question:hover {
+    background: url('./resources/graphics/Website_Buttons-23.png');
+}
+
+.question:active {
+    background: url('./resources/graphics/Website_Buttons-24.png');
+}
+
+.check {
+    width: 75px;
+    height: 75px;
+    background: url('./resources/graphics/Website_Buttons-25.png');
+}
+
+.check:hover {
+    background: url('./resources/graphics/Website_Buttons-26.png');
+}
+
+.check:active {
+    background: url('./resources/graphics/Website_Buttons-27.png');
+}
+
+.tracker button,
+.tracker button:hover,
+.tracker button:active {
+    border: 0px;
+    padding: 0px;
+}
+
+.tracker button.btn {
+    background: none !important;
+    border-radius: 100%;
+}
+
+.tracker .modal div {
+    border: 0px;
+}
+
+.modal-content {
+    margin-top: 0px;
+    height: 423px;
+    background: white;
+    border-radius: 0px;
+}
+
+.tracker .modal-content h1 {
+    margin: 0px;
+    font: 700 16px/16px Raleway;
+    color: #D41F45;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 211px;
+    padding-left: 5px;
+}
+
+.tracker .modal-content h2 {
+    margin: 0px;
+    font: 900 25px/25px Raleway;
+    color: #D41F45;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.tracker .modal-content p {
+    margin: 0px;
+    text-align: left;
+    font: 13px/16px Open Sans;
+    color: black;
+    padding-top: 10px;
+    padding-left: 5px;
+    width: 370px;
+}
+
+.trackerbuttons {
+    position: absolute;
+    width: 110px;
+    top: 0px;
+    right: 0px;
+    padding-top: 250px;
+}
+
+.trackerbuttons button {
+    width: 200px;
+    height: 35px;
+    position: static;
+    top: auto;
+    left: auto;
+    bottom: auto;
+}
+
+button.bt-done {
+    width: 85px;
+    height: 35px !important;
+    background: url('./resources/graphics/Website_Buttons-28.png') no-repeat;
+    display: block;
+    background-size: 85px;
+    margin-top: 70px;
+}
+
+button.bt-done:hover {
+    background-image: url('./resources/graphics/Website_Buttons-29.png');
+    background-size: 88px;
+    background-repeat: no-repeat;
+}
+
+button.bt-done:active {
+    background-image: url('./resources/graphics/Website_Buttons-32.png');
+    background-size: 85px;
+    background-repeat: no-repeat;
+}
+
+button.bt-back {
+    width: 85px;
+    height: 35px !important;
+    background: url('./resources/graphics/Website_Buttons-30.png') no-repeat;
+    display: block;
+    background-size: 85px;
+    margin-top: 10px;
+}
+
+button.bt-back:hover {
+    background-image: url('./resources/graphics/Website_Buttons-31.png');
+    background-size: 88px;
+    background-repeat: no-repeat;
+}
+
+button.bt-back:active {
+    background-image: url('./resources/graphics/Website_Buttons-33.png');
+    background-size: 85px;
+    background-repeat: no-repeat;
+}
+
+.p-1 .modal-content {
+    background: url('./resources/graphics/Task_Overlays-64.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.p-2 .modal-content {
+    background: url('./resources/graphics/Task_Overlays-65.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.p-3 .modal-content {
+    background: url('./resources/graphics/Task_Overlays-66.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.p-4 .modal-content {
+    background: url('./resources/graphics/Task_Overlays-67.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.p-5 .modal-content {
+    background: url('./resources/graphics/Task_Overlays-68.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.p-6 .modal-content {
+    background: url('./resources/graphics/Task_Overlays-69.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.p-7 .modal-content {
+    background: url('./resources/graphics/Task_Overlays-70.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.p-8 .modal-content {
+    background: url('./resources/graphics/Task_Overlays-71.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.p-1 button.btn {
+    position: absolute;
+    top: 190px;
+    left: 0px;
+}
+
+.p-2 button.btn {
+    position: absolute;
+    top: 313px;
+    left: 225px;
+}
+
+.p-3 button.btn {
+    position: absolute;
+    top: 483px;
+    left: 225px;
+}
+
+.p-4 button.btn {
+    position: absolute;
+    top: 603px;
+    left: 400px;
+}
+
+.p-5 button.btn {
+    position: absolute;
+    top: 393px;
+    left: 423px;
+}
+
+.p-6 button.btn {
+    position: absolute;
+    top: 203px;
+    left: 423px;
+}
+
+.p-7 button.btn {
+    position: absolute;
+    top: 43px;
+    left: 520px;
+}
+
+.p-8 button.btn {
+    position: absolute;
+    top: 250px;
+    left: 615px;
+}
+
+.recordplaces,
+.gigplaces {
+    margin-top: 30px;
+}
+
+.recordplaces div,
+.gigplaces div {
+    display: inline-block;
+}
+
+.recordplaces button,
+.gigplaces button {
+    display: inline-block;
+    width: 173px;
+    height: 173px;
+    border-radius: 100%;
+    background: transparent;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    border: 0px;
+}
+
+#label1 button {
+    background-image: url('./resources/graphics/Places_NoOutline-82.png');
+}
+
+#label2 button {
+    background-image: url('./resources/graphics/Places_NoOutline-83.png');
+}
+
+#label3 button {
+    background-image: url('./resources/graphics/Places_NoOutline-84.png');
+}
+
+#label4 button {
+    background-image: url('./resources/graphics/Places_NoOutline-85.png');
+}
+
+#label5 button {
+    background-image: url('./resources/graphics/Places_NoOutline-86.png');
+}
+
+#label6 button {
+    background-image: url('./resources/graphics/Places_NoOutline-87.png');
+}
+
+#gig1 button {
+    background-image: url('./resources/graphics/Places_NoOutline-76.png');
+}
+
+#gig2 button {
+    background-image: url('./resources/graphics/Places_NoOutline-77.png');
+}
+
+#gig3 button {
+    background-image: url('./resources/graphics/Places_NoOutline-78.png');
+}
+
+#gig4 button {
+    background-image: url('./resources/graphics/Places_NoOutline-79.png');
+}
+
+#gig5 button {
+    background-image: url('./resources/graphics/Places_NoOutline-80.png');
+}
+
+#gig6 button {
+    background-image: url('./resources/graphics/Places_NoOutline-81.png');
+}
+
+.labelinfo,
+.giginfo {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    left: -100px;
+}
+
+.labelinfo img,
+.giginfo img {
+    width: 295px;
+    position: absolute;
+    top: 20px;
+}
+
+.labelinfo h1,
+.giginfo h1 {
+    font: 900 36px/36px Raleway;
+    color: #D41F45;
+    width: 460px;
+    position: absolute;
+    right: 0px;
+}
+
+.labelinfo p,
+.giginfo p {
+    width: 460px;
+    position: absolute;
+    right: 0px;
+    font: 18px/22px Open Sans;
+    top: 50px;
+}
+
+.labelinfo p a,
+.giginfo p a {
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+
+.recordgig-container {
+    margin-bottom: 73px;
+}
+
+.recordgig-container button {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background: transparent;
+    border: 0px;
+}
+
+#back-arrow button {
+    background-image: url('./resources/buttons/Website Buttons-35.png')
+}
+
+#label1-icon button {
+    background-image: url('./resources/icons/Places (No Outline)-82.png')
+}
 
 
-.welcome { position: absolute; width: 258px; padding: 20px; background: #D41F45; text-align: center; color: white; top: 476px; }
-.welcome h3 { font: 25px/25px Raleway; }
-.welcome h2 { font: 900 45px/45px Raleway; text-transform: uppercase; }
+/* #label1-icon:active button {
+  background-image: url('./resources/icons/Places-82.png')
+} */
 
-.tracker { width: 730px; margin: auto; height: 650px; padding-top: 70px; position: relative; text-align: center; }
-#pathway { margin: auto; width: 606px;  }
-#current { width: 100px; height: 100px; background: url('./resources/graphics/Website_Buttons-19.png'); }
-#current:hover { background: url('./resources/graphics/Website_Buttons-20.png'); margin-top: -3px; margin-left: 3px;  }
-#current:active { background: url('./resources/graphics/Website_Buttons-21.png'); margin-top: -3px; margin-left: 3px; }
-
-#question { width: 75px; height: 75px; background: url('./resources/graphics/Website_Buttons-22.png'); }
-#question:hover { background: url('./resources/graphics/Website_Buttons-23.png'); }
-#question:active { background: url('./resources/graphics/Website_Buttons-24.png'); }
-
-#check { width: 75px; height: 75px; background: url('./resources/graphics/Website_Buttons-25.png'); }
-#check:hover { background: url('./resources/graphics/Website_Buttons-26.png'); }
-#check:active { background: url('./resources/graphics/Website_Buttons-27.png'); }
-
-.tracker button, .tracker button:hover, .tracker button:active { border: 0px; padding: 0px; }
-.tracker button.btn { background: none!important; border-radius: 100%; }
-.tracker .modal div { border: 0px; }
-.modal-content { margin-top: 0px; height: 423px; background: white; border-radius: 0px; }
-
-.tracker .modal-content h1 { margin: 0px; font: 700 16px/16px Raleway; color: #D41F45; text-transform: uppercase; text-align: left; padding-top: 211px; padding-left: 5px; }
-.tracker .modal-content h2 { margin: 0px; font: 900 25px/25px Raleway; color: #D41F45; text-transform: uppercase; text-align: left; padding-left: 5px; padding-top: 5px; }
-.tracker .modal-content p { margin: 0px; text-align: left; font: 13px/16px Open Sans; color: black; padding-top: 10px; padding-left: 5px; width: 370px; }
-
-.trackerbuttons { position: absolute; width: 110px; top: 0px; right: 0px; padding-top: 250px; }
-.trackerbuttons button { width: 200px; height: 35px; position: static; top: auto; left: auto; bottom: auto;  }
-button.bt-done { width: 85px; height: 35px!important; background: url('./resources/graphics/Website_Buttons-28.png') no-repeat; display: block; background-size: 85px; margin-top: 70px; }
-button.bt-done:hover { background-image: url('./resources/graphics/Website_Buttons-29.png'); background-size: 88px; background-repeat: no-repeat; }
-button.bt-done:active { background-image: url('./resources/graphics/Website_Buttons-32.png'); background-size: 85px; background-repeat: no-repeat; }
-
-button.bt-back { width: 85px; height: 35px!important; background: url('./resources/graphics/Website_Buttons-30.png') no-repeat; display: block; background-size: 85px; margin-top: 10px; }
-button.bt-back:hover { background-image: url('./resources/graphics/Website_Buttons-31.png'); background-size: 88px; background-repeat: no-repeat; }
-button.bt-back:active { background-image: url('./resources/graphics/Website_Buttons-33.png'); background-size: 85px; background-repeat: no-repeat; }
-
-.p-1 .modal-content { background: url('./resources/graphics/Task_Overlays-64.png'); background-size: 100%; background-repeat: no-repeat; }
-.p-2 .modal-content { background: url('./resources/graphics/Task_Overlays-65.png'); background-size: 100%; background-repeat: no-repeat; }
-.p-3 .modal-content { background: url('./resources/graphics/Task_Overlays-66.png'); background-size: 100%; background-repeat: no-repeat; }
-.p-4 .modal-content { background: url('./resources/graphics/Task_Overlays-67.png'); background-size: 100%; background-repeat: no-repeat; }
-.p-5 .modal-content { background: url('./resources/graphics/Task_Overlays-68.png'); background-size: 100%; background-repeat: no-repeat; }
-.p-6 .modal-content { background: url('./resources/graphics/Task_Overlays-69.png'); background-size: 100%; background-repeat: no-repeat; }
-.p-7 .modal-content { background: url('./resources/graphics/Task_Overlays-70.png'); background-size: 100%; background-repeat: no-repeat; }
-.p-8 .modal-content { background: url('./resources/graphics/Task_Overlays-71.png'); background-size: 100%; background-repeat: no-repeat; }
-
-.p-1 button.btn { position: absolute; top: 190px; left: 0px; }
-.p-2 button.btn { position: absolute; top: 313px; left: 225px; }
-.p-3 button.btn { position: absolute; top: 483px; left: 225px; }
-.p-4 button.btn { position: absolute; top: 603px; left: 400px; }
-.p-5 button.btn { position: absolute; top: 393px; left: 423px; }
-.p-6 button.btn { position: absolute; top: 203px; left: 423px; }
-.p-7 button.btn { position: absolute; top: 43px; left: 520px; }
-.p-8 button.btn { position: absolute; top: 250px; left: 615px; }
+#label2-icon button {
+    background-image: url('./resources/icons/Places (No Outline)-83.png')
+}
 
 
-.recordplaces, .gigplaces { margin-top: 30px; }
+/*
+#label2-icon:active button {
+  background-image: url('./resources/icons/Places-83.png')
+} */
 
-.recordplaces div, .gigplaces div { display: inline-block; }
-.recordplaces button, .gigplaces button { display: inline-block; width: 173px; height: 173px; border-radius: 100%; background: transparent; margin-right: 25px; margin-bottom: 30px; border: 0px; }
-#label1 button { background-image:url('./resources/graphics/Places_NoOutline-82.png'); }
-#label2 button { background-image:url('./resources/graphics/Places_NoOutline-83.png'); }
-#label3 button { background-image:url('./resources/graphics/Places_NoOutline-84.png'); }
-#label4 button { background-image:url('./resources/graphics/Places_NoOutline-85.png'); }
-#label5 button { background-image:url('./resources/graphics/Places_NoOutline-86.png'); }
-#label6 button { background-image:url('./resources/graphics/Places_NoOutline-87.png'); }
+#label3-icon button {
+    background-image: url('./resources/icons/Places (No Outline)-84.png')
+}
 
-#gig1 button { background-image:url('./resources/graphics/Places_NoOutline-76.png'); }
-#gig2 button { background-image:url('./resources/graphics/Places_NoOutline-77.png'); }
-#gig3 button { background-image:url('./resources/graphics/Places_NoOutline-78.png'); }
-#gig4 button { background-image:url('./resources/graphics/Places_NoOutline-79.png'); }
-#gig5 button { background-image:url('./resources/graphics/Places_NoOutline-80.png'); }
-#gig6 button { background-image:url('./resources/graphics/Places_NoOutline-81.png'); }
+#label4-icon button {
+    background-image: url('./resources/icons/Places (No Outline)-85.png')
+}
 
-#labelinfo, #giginfo { width: 800px; height: 400px; position: relative; left: -100px; }
-#labelinfo img, #giginfo img { width: 295px; position: absolute; top: 20px;  }
-#labelinfo h1, #giginfo h1 { font: 900 36px/36px Raleway; color: #D41F45; width: 460px; position: absolute; right: 0px; }
-#labelinfo p, #giginfo p { width: 460px; position: absolute; right: 0px; font: 18px/22px Open Sans; top: 50px; }
-#labelinfo p a, #giginfo p a { text-decoration: none; font-style: italic; color: black; }
+#label5-icon button {
+    background-image: url('./resources/icons/Places (No Outline)-86.png')
+}
+
+#label6-icon button {
+    background-image: url('./resources/icons/Places (No Outline)-87.png')
+}
+
+#gig1-icon button {
+    background-image: url('./resources/icons/Places-76.png')
+}
+
+#gig2-icon button {
+    background-image: url('./resources/icons/Places-77.png')
+}
+
+#gig3-icon button {
+    background-image: url('./resources/icons/Places-78.png')
+}
+
+#gig4-icon button {
+    background-image: url('./resources/icons/Places-79.png')
+}
+
+#gig5-icon button {
+    background-image: url('./resources/icons/Places-80.png')
+}
+
+#gig6-icon button {
+    background-image: url('./resources/icons/Places-81.png')
+}
