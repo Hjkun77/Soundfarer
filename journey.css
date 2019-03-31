@@ -169,6 +169,10 @@
     background: url('./resources/graphics/Website_Buttons-27.png');
 }
 
+.p-1 button:disabled, .p-2 button:disabled, .p-3 button:disabled, .p-4 button:disabled, .p-5 button:disabled, .p-6 button:disabled, .p-7 button:disabled, .p-8 button:disabled {
+  opacity: 1;
+}
+
 .tracker button,
 .tracker button:hover,
 .tracker button:active {
