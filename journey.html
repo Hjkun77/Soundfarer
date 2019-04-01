@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="journey.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i|Raleway:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,800|Raleway:300,400,700,900" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -40,6 +40,65 @@
             <h3>Welcome,</h3>
             <h2 id="username">USER</h2>
         </div>
+
+<!-- page load modal -->
+<script type="text/javascript">
+$(window).on('load',function(){
+        $('#pageload').modal('show');
+    });
+    </script>
+
+<div class="pload">
+    <div class="modal fade" id="pageload" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p>
+                      <b>Welcome to your progress tracker!</b><br><br>
+
+Here you can find eight separate tasks that you have to accomplish in order to understand more about how to be an independent artist and the kind of connections and people you’ll meet.
+
+<br><br>To complete the tasks, all you have to do is press “I’m Done!”. This journey is yours and yours alone; you have to be honest with yourself regarding whether or not you have accomplished the tasks.
+
+<br><br>Good luck!
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- database modal popup -->
+<script type="text/javascript">
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 800) {
+    $('#databasemodal').modal('show');
+  }
+});
+</script>
+
+<div class="pload">
+    <div class="modal fade" id="databasemodal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p style="margin-top: 60px">
+                      <b>This is the database.
+                                            </b><br><br>
+
+                      As you go through the progress tracker, you’ll come across tasks that will require you to go to places and meet different kinds of people. This database has six different independent record labels that can help you produce your music, and six different locations where you can find gigs.
+
+                      <br><br>The database contains addresses, contact details, and open hours of each place, so you can go through them and use the information to help you accomplish your tasks.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- tracker -->
 
         <div class="tracker">
 
@@ -111,8 +170,12 @@
                             <div class="modal-body">
                                 <h1>TASK #3</h1>
                                 <h2>RECORD A SINGLE</h2>
-                                <p>You have to get your sound out there, and one of the ways you can start that off is by releasing a song that you’ve written. You could record the song yourself, or you could find an independent record label and pay them
-                                    to help you produce, mix, and master your song.</p>
+                                <p>
+                                  <b>STEP 1:</b> Have a song ready to record
+  <br><b>STEP 2:</b> Contact the studio you want to record at and book the hours you will need for recording.
+  <br><b>STEP 3:</b> When at the recording session, coordinate with the point person as to the specifics of your song, such as the BPM.
+  <br><b>STEP 4:</b> When you’re satisfied with the song, have it mixed and mastered.
+</p>
                             </div>
                             <div class="trackerbuttons">
                                 <button class="bt-done" data-dismiss="modal" onclick="toggleTask4()"></button>

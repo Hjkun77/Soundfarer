@@ -12,6 +12,7 @@ nav {
     width: 100%;
     margin-top: 0;
     margin-bottom: -5px;
+    position: relative; z-index: 5; 
 }
 
 .landingContainer {
@@ -33,12 +34,20 @@ nav {
 }
 
 
+.navtrack { width: 137px; position: fixed; top: 300px; right: 30px; }
+.navtrack a { display: block; background: #D41F45; font: 900 24px/24px Raleway; color: white; padding: 5px 0px; text-align: center; margin-bottom: 25px; }
+.navtrack a:hover { text-decoration: none; background: #5E203A; }
+
 /* Journey Section */
 
 #journey {
     width: 100%;
-    min-height: 120vh;
+    min-height: auto; padding-bottom: 250px;
+    position: relative;
 }
+
+.img2 { position: absolute; top: 0px; right: 0px; width: 254px; height: 267px; background: url('./resources/graphics/Website Elements-16.png'); }
+.img3 { position: absolute; bottom: -420px; right: -30px; width: 346px; height: 633px; background: url('./resources/graphics/Website Elements-08.png'); }
 
 #j-1 {
     position: static;
@@ -86,7 +95,8 @@ nav {
 
 .main-signup {
     position: relative;
-    left: 55%;
+    left: 20px;
+top: 100px;
     width: 417px;
     text-align: center;
 }
@@ -216,7 +226,7 @@ nav {
 /* Stories Section */
 
 #stories {
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     padding-top: 20%;
 }
@@ -235,9 +245,9 @@ nav {
 }
 
 .s-2 {
-    width: 25%;
-    margin: 0 auto;
-    margin-top: -15%;
+    width: 380px;
+    margin: 0px 450px 0px auto;
+    margin-top: -10%;
 }
 
 .stories-grid {
@@ -391,16 +401,20 @@ nav {
 }
 
 #b2circ {
-    background-image: url('./resources/portraits/Artist Portraits-57.png');
+    background-image: url('./resources/portraits/ARTIST UPDATES-50.png');
 }
 
 #b3circ {
-    background-image: url('./resources/portraits/Artist Portraits-58.png');
+    background-image: url('./resources/portraits/ARTIST UPDATES-49.png');
 }
 
 #b4circ {
     background-image: url('./resources/portraits/Artist Portraits-59.png');
 }
+#b5circ {
+    background-image: url('./resources/portraits/Artist Portraits-49.png');
+}
+
 
 .artist1 .stories-container {
     margin-top: 267px;
@@ -408,70 +422,46 @@ nav {
 
 .artist1 button {
     position: absolute;
-    top: 175px;
-    left: 5px;
+    top: 110px;
+    left: 0px;
 }
 
 .artist1 .modal-content {
     background: url('./resources/graphics/Artist Overlay-67.png');
 }
 
-#artb1 {
-    width: 153px;
-    height: 42px;
-    background: url('./resources/graphics/Website Buttons-47.png') no-repeat;
-}
-
-#artb1:active {
-    background: url('./resources/graphics/Website Buttons-48.png') no-repeat;
-}
 
 .artist2 .stories-container {
-    margin-top: 267px;
+    margin-top: 60px; width: 694px;
 }
+
+.artist2 .stories-container p { font: 16px/21px Open Sans; }
 
 .artist2 button {
     position: absolute;
-    top: 160px;
+    top: 110px;
     left: 195px;
 }
 
 .artist2 .modal-content {
-    background: url('./resources/graphics/Artist Overlay-68.png');
+    background: url('./resources/graphics/ARTIST UPDATES-45.png');
 }
 
-#artb2 {
-    width: 164px;
-    height: 59px;
-    background: url('./resources/graphics/Website Buttons-51.png') no-repeat;
-}
-
-#artb2:active {
-    background: url('./resources/graphics/Website Buttons-52.png') no-repeat;
-}
 
 .artist3 .stories-container {
-    margin-top: 267px;
+    margin-top: 60px; width: 683px;
 }
+
+.artist3 .stories-container p { font: 16px/22px Open Sans; }
 
 .artist3 button {
     position: absolute;
-    top: 328px;
-    left: -5px;
+    top: 300px;
+    left: -25px;
 }
 
 .artist3 .modal-content {
-    background: url('./resources/graphics/Artist Overlay-69.png');
-}
-
-#artb3 {
-    width: 179px;
-    height: 59px;
-    background: url('./resources/graphics/Website Buttons-49.png') no-repeat;
-}
-
-#artb3:active {
-    background: url('./resources/graphics/Website Buttons-50.png') no-repeat;
+    background: url('./resources/graphics/ARTIST UPDATES-44.png');
 }
 
 .artist4 .stories-container {
@@ -480,20 +470,82 @@ nav {
 
 .artist4 button {
     position: absolute;
-    top: 328px;
-    left: 195px;
+    top: 300px;
+    left: 220px;
 }
 
 .artist4 .modal-content {
-    background: url('./resources/graphics/Artist Overlay-70.png');
+    background: url('./resources/graphics/ARTIST UPDATES-58.png');
 }
 
+
+.artist5 .stories-container {
+    margin-top: 70px;
+margin-left: 450px;
+}
+.artist5 .otherstories { text-align: left; left: 40px; right: auto; }
+.artist5 .otherstories button { margin-left: 0px; margin-right: 30px; }
+
+.artist5 button {
+    position: absolute;
+    top: 490px;
+    left: 120px;
+}
+
+.artist5 .modal-content {
+    background: url('./resources/graphics/ARTIST UPDATES-47.png');
+}
+
+#artb1 {
+    width: 154px;
+    height: 154px;
+    background: url('./resources/icons/ARTIST TITLES-78.png') no-repeat;
+}
+
+#artb1:active {
+    background: url('./resources/icons/ARTIST TITLES-79.png') no-repeat;
+}
+
+
+#artb2 {
+    width: 209px;
+    height: 154px;
+    background: url('./resources/icons/ARTIST TITLES-80.png') no-repeat;
+}
+
+#artb2:active {
+    background: url('./resources/icons/ARTIST TITLES-81.png') no-repeat;
+}
+
+
+#artb3 {
+    width: 205px;
+    height: 154px;
+    background: url('./resources/icons/ARTIST TITLES-82.png') no-repeat;
+}
+
+#artb3:active {
+    background: url('./resources/icons/ARTIST TITLES-83.png') no-repeat;
+}
+
+
 #artb4 {
-    width: 169px;
-    height: 59px;
-    background: url('./resources/graphics/Website Buttons-53.png') no-repeat;
+    width: 167px;
+    height: 154px;
+    background: url('./resources/icons/ARTIST TITLES-86.png') no-repeat;
 }
 
 #artb4:active {
-    background: url('./resources/graphics/Website Buttons-54.png') no-repeat;
+    background: url('./resources/icons/ARTIST TITLES-87.png') no-repeat;
+}
+
+
+#artb5 {
+    width: 153px;
+    height: 154px;
+    background: url('./resources/icons/ARTIST TITLES-84.png') no-repeat;
+}
+
+#artb5:active {
+    background: url('./resources/icons/ARTIST TITLES-85.png') no-repeat;
 }
