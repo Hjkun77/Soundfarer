@@ -84,7 +84,7 @@
                               <div class="container flex justifyCenter" style="width:100%; height: 100%;">
                                   <div class="signup-container">
                                       <input id="name" type="text" required>
-                                      <button id="j-5b" onclick="toggleProgress()" data-dismiss="modal"></button>
+                                      <button id="j-5b" data-dismiss="modal" onclick="toggleProgress()"></button>
                                   </div>
 
                               </div>
@@ -321,29 +321,7 @@
             <div class="flex justifyEnd" id="s-3">
                 <img src="./resources/graphics/Website Elements-09.png" alt="graphics 9a">
             </div>
-
-        <section id="about">
-            <div class="flex justifyEnd">
-                <img src="./resources/graphics/Website Elements-09 (1).png" alt="graphics 9b">
-            </div>
-
-            <div class="flex justifyCenter">
-                <div id="a-1" class="flex justifyCenter alignCenter flexColumn">
-                    <img src="./resources/graphics/Website Elements-15.png" alt="about-title">
-                    <p>The website aims to motivate its users through testimonials from various other local artists and their experiences and to provide the necessary information and resources through a progress tracker that will help them to understand
-                        how to operate as an independent artist in the local music scene.</p>
-                </div>
-            </div>
-
-            <div id="a-4">
-                <img src="./resources/graphics/Website Elements-04.png" alt="a-2" id="a-2">
-                <div class="flex justifyEnd">
-                    <img src="./resources/graphics/Website Elements-03.png" alt="a-3" id="a-3">
-                </div>
-
-
         </section>
-
         <section id="about">
             <div class="flex justifyEnd">
                 <img src="./resources/graphics/Website Elements-09 (1).png" alt="graphics 9b">
@@ -362,23 +340,19 @@
                 <div class="flex justifyEnd">
                     <img src="./resources/graphics/Website Elements-03.png" alt="a-3" id="a-3">
                 </div>
-
-            </div>
 
 
         </section>
     </section>
-
 
     <section id="progress" class="none">
         <img src="./resources/graphics/Website_Elements-90.png" alt="logo" id="topleft">
         <img src="./resources/graphics/Website_Elements-92.png" alt="logo" id="topright">
 
         <div class="prognav">
-            <a href="/#progress">TRACKER</a>
-            <a href="/#recordlabel">LABELS</a>
-            <a href="/#giglocation">LOCATIONS</a>
-            <!-- <a href="/#about">ABOUT</a> -->
+            <a href="/">TRACKER</a>
+            <a href="/">LOCATIONS</a>
+            <a href="/">ABOUT</a>
             <a href="/">LOGOUT</a>
         </div>
 
@@ -387,7 +361,66 @@
             <h2 id="username">USER</h2>
         </div>
 
-        <div class="tracker">
+<!-- page load modal -->
+<!-- <script type="text/javascript">
+$(window).on('load',function(){
+        $('#pageload').modal('show');
+    });
+    </script> -->
+
+<div class="pload">
+    <div class="modal fade" id="pageload" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p>
+                      <b>Welcome to your progress tracker!</b><br><br>
+
+Here you can find eight separate tasks that you have to accomplish in order to understand more about how to be an independent artist and the kind of connections and people you’ll meet.
+
+<br><br>To complete the tasks, all you have to do is press “I’m Done!”. This journey is yours and yours alone; you have to be honest with yourself regarding whether or not you have accomplished the tasks.
+
+<br><br>Good luck!
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- database modal popup -->
+<!-- <script type="text/javascript">
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 800) {
+    $('#databasemodal').modal('show');
+  }
+});
+</script> -->
+
+<div class="pload">
+    <div class="modal fade" id="databasemodal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p style="margin-top: 60px">
+                      <b>This is the database.
+                                            </b><br><br>
+
+                      As you go through the progress tracker, you’ll come across tasks that will require you to go to places and meet different kinds of people. This database has six different independent record labels that can help you produce your music, and six different locations where you can find gigs.
+
+                      <br><br>The database contains addresses, contact details, and open hours of each place, so you can go through them and use the information to help you accomplish your tasks.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- tracker -->
+
+        <div class="tracker" id="tracker">
 
             <img src="./resources/graphics/Website_Elements-16.png" alt="logo" id="pathway">
 
@@ -457,8 +490,12 @@
                             <div class="modal-body">
                                 <h1>TASK #3</h1>
                                 <h2>RECORD A SINGLE</h2>
-                                <p>You have to get your sound out there, and one of the ways you can start that off is by releasing a song that you’ve written. You could record the song yourself, or you could find an independent record label and pay them
-                                    to help you produce, mix, and master your song.</p>
+                                <p>
+                                  <b>STEP 1:</b> Have a song ready to record
+  <br><b>STEP 2:</b> Contact the studio you want to record at and book the hours you will need for recording.
+  <br><b>STEP 3:</b> When at the recording session, coordinate with the point person as to the specifics of your song, such as the BPM.
+  <br><b>STEP 4:</b> When you’re satisfied with the song, have it mixed and mastered.
+</p>
                             </div>
                             <div class="trackerbuttons">
                                 <button class="bt-done" data-dismiss="modal" onclick="toggleTask4()"></button>
@@ -606,9 +643,23 @@
                 </div>
             </div>
 
-            <div class="modal fade" id="congrats" tabindex="-1" role="dialog" aria-labelledby="congrats" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <img src="./resources/graphics/Frame 3.2.png" alt="congrats">
+            <div class="pload">
+                <div class="modal fade" id="congrats" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <p>
+                                  <b>Congratulations! You’ve finished all the tasks!</b><br><br>
+
+            Everything you have accomplished up to this point has taught you the basics and then some of how to manage being an independent artist in the local music scene.
+
+            <br><br>What will you do next? What do you aim to accomplish? The choice is up to you. This part is done, but your journey is far from over.
+
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -618,12 +669,11 @@
         <img src="./resources/graphics/Website_Elements-89.png" alt="logo" id="side1">
         <img src="./resources/graphics/Website_Elements-88.png" alt="logo" id="side2">
 
-        <div class="recordlabel" id="recordlabel">
+        <div class="recordlabel" id="recordlabel" style="margin-bottom: 240px">
 
             <h2>record labels</h2>
 
             <div class="recordplaces">
-
                 <div id="label1">
                     <button onclick="toggleLabel1()"></button>
                 </div>
@@ -647,20 +697,11 @@
                 <div id="label6">
                     <button onclick="toggleLabel6()"></button>
                 </div>
-
-                <!-- RECORD LABEL PLACE 1 -->
-
-                <div id="label4">
-                    <button onclick="toggleLabel4()"></button>
-                </div>
-
             </div>
-
         </div>
 
-                <!-- RECORD LABEL PLACE 1 -->
 
-        <div class="recordlabelimg none" id="recordlabelimg">
+        <div class="recordlabelimg none" id="recordlabelimg" style="margin-bottom: 240px">
 
             <div class="recordgig-container flex spaceBetween">
                 <div id="back-arrow">
@@ -799,16 +840,13 @@
 
                     <i>OPEN HOURS</i> Open 24/7
 
-                <p><i>ADDRESS</i><br> 14 Panay St., Ayala Alabang Village, Muntinlupa City<br><br>
 
                 </p>
             </div>
             <!-- END OF RECORD LABEL PLACE POPUPS -->
         </div>
 
-                    <i>PHONE NUMBER</i><br> (+63) 917 838 0961<br><br>
 
-                    <i>OPEN HOURS</i> Open 24/7
 
 
         <div class="giglocation" id="giglocation">
@@ -845,13 +883,7 @@
 
         </div>
 
-                <div id="gig5">
-                    <button onclick="toggleGig5()"></button>
-                </div>
 
-                <div id="gig6">
-                    <button onclick="toggleGig6()"></button>
-                </div>
 
         <div class="giglocationimg none" id="giglocationimg">
 
@@ -1029,7 +1061,8 @@
         </p>
       </div>
       <!-- END OF GIG PLACE POPUPS -->
-    </div>
+
+  </div>
 
     <img src="./resources/graphics/Website_Elements-91.png" alt="logo" id="bottom-left">
     <img src="./resources/graphics/Website_Elements-93.png" alt="logo" id="bottom-right">
