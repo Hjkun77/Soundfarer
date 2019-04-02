@@ -44,7 +44,7 @@
 .giglocation,
 .giglocationimg {
     margin: auto;
-    margin-top: 100px;
+    /* margin-top: 240px; */
     width: 615px;
 }
 
@@ -155,6 +155,10 @@
     background: url('./resources/graphics/Website_Buttons-24.png');
 }
 
+.question:disabled {
+  opacity: 1 !important;
+}
+
 .check {
     width: 75px;
     height: 75px;
@@ -169,9 +173,22 @@
     background: url('./resources/graphics/Website_Buttons-27.png');
 }
 
-.p-1 button:disabled, .p-2 button:disabled, .p-3 button:disabled, .p-4 button:disabled, .p-5 button:disabled, .p-6 button:disabled, .p-7 button:disabled, .p-8 button:disabled {
-  opacity: 1;
+@media screen and (min-width: 768px) {
+    .pload .modal-dialog {
+        max-width: 790px!important;
+        margin: 20px auto;
+        border: 0px;
+    }
 }
+
+.pload .modal-content {
+    margin-top: 0px;
+    height: 390px; border: 0px;
+    border-radius: 0px;
+background: url('./resources/graphics/Progress Tracker Pop Up-72.png');
+}
+
+.pload p { width: 538px; margin: 35px auto; text-align: center; font: 18px/24px Open Sans; }
 
 .tracker button,
 .tracker button:hover,
@@ -185,58 +202,68 @@
     border-radius: 100%;
 }
 
+@media screen and (min-width: 768px) {
+    .tracker .modal-dialog {
+        max-width: 691px!important;
+        margin: 20px auto;
+        border: 0px;
+    }
+}
 .tracker .modal div {
     border: 0px;
 }
 
-.modal-content {
+.tracker .modal-content {
     margin-top: 0px;
-    height: 423px;
+    height: 585px;
     background: white;
     border-radius: 0px;
 }
 
+
 .tracker .modal-content h1 {
     margin: 0px;
-    font: 700 16px/16px Raleway;
+    font: 700 24px/24px Raleway;
     color: #D41F45;
     text-transform: uppercase;
     text-align: left;
-    padding-top: 211px;
-    padding-left: 5px;
+    padding-top: 300px;
+    padding-left: 15px;
 }
 
 .tracker .modal-content h2 {
     margin: 0px;
-    font: 900 25px/25px Raleway;
+    font: 900 36px/36px Raleway;
     color: #D41F45;
     text-transform: uppercase;
     text-align: left;
-    padding-left: 5px;
+    padding-left: 15px;
     padding-top: 5px;
 }
 
 .tracker .modal-content p {
     margin: 0px;
     text-align: left;
-    font: 13px/16px Open Sans;
+    font: 16px/20px Open Sans;
     color: black;
     padding-top: 10px;
-    padding-left: 5px;
-    width: 370px;
+    padding-left: 15px;
+    width: 446px;
 }
+
+.tracker .modal-content p b { font-weight: 800; text-transform: uppercase; color: #D41F45; }
 
 .trackerbuttons {
     position: absolute;
     width: 110px;
-    top: 0px;
-    right: 0px;
+    bottom: 40px;
+    right: 40px;
     padding-top: 250px;
 }
 
 .trackerbuttons button {
-    width: 200px;
-    height: 35px;
+    width: 110px;
+    height: 44px;
     position: static;
     top: auto;
     left: auto;
@@ -244,47 +271,48 @@
 }
 
 button.bt-done {
-    width: 85px;
-    height: 35px !important;
+    width: 113px;
+    height: 47px !important;
     background: url('./resources/graphics/Website_Buttons-28.png') no-repeat;
     display: block;
-    background-size: 85px;
+    background-size: 110px;
     margin-top: 70px;
 }
 
 button.bt-done:hover {
     background-image: url('./resources/graphics/Website_Buttons-29.png');
-    background-size: 88px;
+    background-size: 116px;
     background-repeat: no-repeat;
 }
 
 button.bt-done:active {
     background-image: url('./resources/graphics/Website_Buttons-32.png');
-    background-size: 85px;
+    background-size: 110px;
     background-repeat: no-repeat;
 }
 
 button.bt-back {
-    width: 85px;
-    height: 35px !important;
+    width: 113px;
+    height: 47px !important;
     background: url('./resources/graphics/Website_Buttons-30.png') no-repeat;
     display: block;
-    background-size: 85px;
+    background-size: 110px;
     margin-top: 10px;
 }
 
 button.bt-back:hover {
     background-image: url('./resources/graphics/Website_Buttons-31.png');
-    background-size: 88px;
+    background-size: 116px;
     background-repeat: no-repeat;
 }
 
 button.bt-back:active {
     background-image: url('./resources/graphics/Website_Buttons-33.png');
-    background-size: 85px;
+    background-size: 110px;
     background-repeat: no-repeat;
 }
 
+#databasemodal { display: none; }
 .p-1 .modal-content {
     background: url('./resources/graphics/Task_Overlays-64.png');
     background-size: 100%;

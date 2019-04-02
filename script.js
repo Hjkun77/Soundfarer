@@ -9,13 +9,14 @@ function toggleProgress() {
     alert('Please input display name')
   } else {
     UserName.innerHTML = InputValue
+    // window.location.href = "/journey.html"
     Index.classList.replace('block', 'none')
     Progress.classList.replace('none', 'block')
     document.getElementById('tracker').scrollIntoView()
     var J5Button = document.getElementById('j-5b');
     setTimeout(function () {
-      $('#welcome').modal('show');
-    }, 1000)
+      $('#pageload').modal('show');
+    }, 500)
   }
 
 }
