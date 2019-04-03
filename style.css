@@ -48,7 +48,7 @@ nav {
 }
 
 .img2 { position: absolute; top: 0px; right: 0px; width: 254px; height: 267px; background: url('./resources/graphics/Website Elements-16.png'); }
-.img3 { position: absolute; bottom: -420px; right: -30px; width: 346px; height: 633px; background: url('./resources/graphics/Website Elements-08.png'); }
+.img3 { position: absolute; bottom: -420px; right: -30px; width: 346px; height: 633px; background: url('./resources/graphics/Website Elements-08.png'); background-size: 346px; }
 
 #j-1 {
     position: static;
@@ -297,6 +297,7 @@ margin-top: 100px;
     background: url('./resources/graphics/Website Elements-06.png');
     width: 644px;
     height: 442px;
+    background-size: 644px;
 }
 
 #a-1 p {
@@ -335,6 +336,18 @@ margin-top: 100px;
 .s-2 button.btn {
     background: none !important;
 }
+
+@media screen and (min-width: 1920px) {
+.s-2 { margin-right: 650px; margin-top: -100px; } 
+.s-1 img { width: 650px; height: auto; margin-top: 140px; }
+.s-1 p { padding-top: 60px; font-size: 19px; width: 330px;  }
+.img3 { width: 500px; background-size: 500px; height: 900px; right: -40px; bottom: -700px; }
+
+#s-3 { margin-top: -20%; }
+
+#a-1 { margin-top: -120px; margin-bottom: 200px; margin-left: 150px; }
+}
+
 
 @media screen and (min-width: 768px) {
     #stories .modal-dialog {

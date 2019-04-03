@@ -8,12 +8,14 @@
     position: absolute;
     right: 0px;
     top: 497px;
+    width: 279px;
 }
 
 #side2 {
     position: absolute;
     left: 0px;
     top: 1189px;
+    width: 232px;
 }
 
 #bottom-left {
@@ -58,12 +60,14 @@
     position: absolute;
     left: 0px;
     top: 0px;
+    width: 318px; height: 314px;
 }
 
 #topright {
     position: absolute;
     right: 0px;
     top: 0px;
+    width: 359px; height: 392px;
 }
 
 .prognav {
@@ -161,7 +165,9 @@
 
 .check {
     width: 75px;
-    height: 75px;
+    height: 75px; }
+
+    /*
     background: url('./resources/graphics/Website_Buttons-25.png');
 }
 
@@ -171,24 +177,82 @@
 
 .check:active {
     background: url('./resources/graphics/Website_Buttons-27.png');
-}
+} */
+
+.p-1 .check { background: url('./resources/buttons/Task 1 Completetion Badge.png'); background-size: 78px; }
+
+.p-2 .check { background: url('./resources/buttons/Task 2 Completetion Badge.png'); background-size: 78px; }
+
+.p-3 .check { background: url('./resources/buttons/Task 3 Completetion Badge.png'); background-size: 78px; }
+
+.p-4 .check { background: url('./resources/buttons/Task 4 Completetion Badge.png'); background-size: 78px; }
+
+.p-5 .check { background: url('./resources/buttons/Task 5 Completetion Badge.png'); background-size: 78px; }
+
+.p-6 .check { background: url('./resources/buttons/Task 6 Completetion Badge.png'); background-size: 78px; }
+
+.p-7 .check { background: url('./resources/buttons/Task 7 Completetion Badge.png'); background-size: 78px; }
+
+.p-8 .check { background: url('./resources/buttons/Task 8 Completetion Badge.png'); background-size: 78px; }
 
 @media screen and (min-width: 768px) {
-    .pload .modal-dialog {
+    .pload .modal-dialog, .congratsmodal .modal-dialog {
         max-width: 790px!important;
         margin: 20px auto;
         border: 0px;
     }
 }
 
-.pload .modal-content {
+@media screen and (min-width: 1920px) {
+#topleft { width: 600px; height: auto; }
+#topright { width: 700px; height: auto; }
+
+#progress { height: 2500px; }
+
+.recordlabel { margin-top: 430px; }
+
+#side1 { top: 770px; width: 400px; }
+#side2 { width: 320px; }
+#tracker { top: 150px; padding-bottom: 100px;  }
+
+.prognav { right: 110px; top: 570px }
+.prognav a { margin-bottom: 40px; }
+
+
+.welcome { width: 480px;  padding: 50px; top: 620px; }
+.welcome h3 { font-size: 35px; line-height: 35px; }
+
+}
+
+@media screen and (min-width: 2560px) {
+#topleft { width: 900px; height: auto; }
+#topright { width: 800px; height: auto; }
+
+#progress { height: 3000px; }
+
+.recordlabel { margin-top: 700px; }
+
+#side1 { top: 970px; width: 500px; }
+#side2 { top: 1300px; width: 450px; }
+#tracker { top: 300px; padding-bottom: 100px;  }
+
+.prognav { right: 200px; top: 670px }
+.prognav a { margin-bottom: 40px; }
+
+
+.welcome { width: 480px;  padding: 50px; top: 720px; }
+.welcome h3 { font-size: 35px; line-height: 35px; }
+
+}
+
+.pload .modal-content, .congratsmodal .modal-content {
     margin-top: 0px;
     height: 390px; border: 0px;
     border-radius: 0px;
 background: url('./resources/graphics/Progress Tracker Pop Up-72.png');
 }
 
-.pload p { width: 538px; margin: 35px auto; text-align: center; font: 18px/24px Open Sans; }
+.pload p, .congratsmodal p { width: 538px; margin: 35px auto; text-align: center; font: 18px/24px Open Sans; }
 
 .tracker button,
 .tracker button:hover,
@@ -248,11 +312,11 @@ background: url('./resources/graphics/Progress Tracker Pop Up-72.png');
     color: black;
     padding-top: 10px;
     padding-left: 15px;
-    width: 446px;
+    width: 480px;
 }
 
 .tracker .modal-content p b { font-weight: 800; text-transform: uppercase; color: #D41F45; }
-
+.tracker .modal-content p a { color: black; text-decoration: underline; }
 .trackerbuttons {
     position: absolute;
     width: 110px;
@@ -314,7 +378,7 @@ button.bt-back:active {
 
 #databasemodal { display: none; }
 .p-1 .modal-content {
-    background: url('./resources/graphics/Task_Overlays-64.png');
+    background: url('./resources/graphics/TASK OVERLAY UPDATE-48.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -338,13 +402,13 @@ button.bt-back:active {
 }
 
 .p-5 .modal-content {
-    background: url('./resources/graphics/Task_Overlays-68.png');
+    background: url('./resources/graphics/TASK OVERLAY UPDATE-52.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .p-6 .modal-content {
-    background: url('./resources/graphics/Task_Overlays-69.png');
+    background: url('./resources/graphics/TASK OVERLAY UPDATE-53.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
