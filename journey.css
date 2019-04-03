@@ -177,18 +177,21 @@
     .pload .modal-dialog {
         max-width: 790px!important;
         margin: 20px auto;
-        border: 0px;
+        border: 0px !important;
     }
+
 }
+
 
 .pload .modal-content {
+    border: 0px !important;
     margin-top: 0px;
-    height: 390px; border: 0px;
+    height: 390px !important;
     border-radius: 0px;
-background: url('./resources/graphics/Progress Tracker Pop Up-72.png');
+background: url('./resources/graphics/Progress Tracker Pop Up-72.png') !important;
 }
 
-.pload p { width: 538px; margin: 35px auto; text-align: center; font: 18px/24px Open Sans; }
+.pload p { width: 538px !important; margin: 35px auto !important; text-align: center !important; font: 18px/24px Open Sans !important; }
 
 .tracker button,
 .tracker button:hover,
