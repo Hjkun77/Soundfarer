@@ -9,7 +9,6 @@ function toggleProgress() {
     alert('Please input display name')
   } else {
     UserName.innerHTML = InputValue
-    // window.location.href = "/journey.html"
     Index.classList.replace('block', 'none')
     Progress.classList.replace('none', 'block')
     document.getElementById('tracker').scrollIntoView()
@@ -40,7 +39,7 @@ const Button8 = document.querySelector('#task8-button');
 
 function toggleTask1() {
   Button2.disabled = true;
-  Circle1.classList.replace('check', 'current')
+  // Circle1.classList.replace('check', 'current')
   Circle2.classList.replace('current', 'question')
 }
 
@@ -50,7 +49,7 @@ function toggleTask2() {
   Circle2.classList.replace('question', 'current')
 
   Button3.disabled = true;
-  Circle2.classList.replace('check', 'current')
+  // Circle2.classList.replace('check', 'current')
   Circle3.classList.replace('current', 'question')
 }
 
@@ -60,7 +59,7 @@ function toggleTask3() {
   Circle3.classList.replace('question', 'current')
 
   Button4.disabled = true;
-  Circle3.classList.replace('check', 'current')
+  // Circle3.classList.replace('check', 'current')
   Circle4.classList.replace('current', 'question')
 }
 
@@ -70,7 +69,7 @@ function toggleTask4() {
   Circle4.classList.replace('question', 'current')
 
   Button5.disabled = true;
-  Circle4.classList.replace('check', 'current')
+  // Circle4.classList.replace('check', 'current')
   Circle5.classList.replace('current', 'question')
 }
 
@@ -80,7 +79,7 @@ function toggleTask5() {
   Circle5.classList.replace('question', 'current')
 
   Button6.disabled = true;
-  Circle5.classList.replace('check', 'current')
+  // Circle5.classList.replace('check', 'current')
   Circle6.classList.replace('current', 'question')
 }
 
@@ -90,7 +89,7 @@ function toggleTask6() {
   Circle6.classList.replace('question', 'current')
 
   Button7.disabled = true;
-  Circle6.classList.replace('check', 'current')
+  // Circle6.classList.replace('check', 'current')
   Circle7.classList.replace('current', 'question')
 }
 
@@ -100,7 +99,7 @@ function toggleTask7() {
   Circle7.classList.replace('question', 'current')
 
   Button8.disabled = true;
-  Circle7.classList.replace('check', 'current')
+  // Circle7.classList.replace('check', 'current')
   Circle8.classList.replace('current', 'question')
 }
 
@@ -110,6 +109,9 @@ function toggleTask8() {
   Circle8.classList.replace('question', 'current')
 }
 
+function toggleComplete() {
+  Circle8.classList.replace('current', 'check')
+}
 const RecordLabel = document.querySelector('#recordlabel')
 const RecordLabelImg = document.querySelector('#recordlabelimg');
 const Label1Image = document.querySelector('#label1-image');
