@@ -344,8 +344,12 @@ margin-top: 100px;
 }
 
 @media screen and (min-width: 1920px) {
-.s-1 {margin-left: 7.5%}
-.s-2 { margin-right: 480  px; margin-top: -100px; }
+  #journey {margin-bottom: 240px;}
+  .j-3, .j-4{padding-top: 60px;}
+  .j-3 h3 { top: -142%;}
+  #stories {margin: 120px 0}
+.s-2 { margin-right: 480px; margin-top: -100px; margin-left: 240px}
+
 .s-1 img { width: 650px; height: auto; margin-top: 140px; }
 .s-1 p { padding-top: 60px; font-size: 19px; width: 330px;  }
 .img3 { width: 500px; background-size: 500px; height: 900px; right: -40px; bottom: -700px; }
