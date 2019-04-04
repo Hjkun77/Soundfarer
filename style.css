@@ -85,6 +85,12 @@ nav {
     color: #F6F6F6;
 }
 
+@media screen and (min-width: 1920px) {
+  .j-3 {
+      margin-left: 15%;
+  }
+}
+
 .j-4 {
     position: relative;
     width: 417px;
@@ -338,7 +344,8 @@ margin-top: 100px;
 }
 
 @media screen and (min-width: 1920px) {
-.s-2 { margin-right: 650px; margin-top: -100px; }
+.s-1 {margin-left: 7.5%}
+.s-2 { margin-right: 480  px; margin-top: -100px; }
 .s-1 img { width: 650px; height: auto; margin-top: 140px; }
 .s-1 p { padding-top: 60px; font-size: 19px; width: 330px;  }
 .img3 { width: 500px; background-size: 500px; height: 900px; right: -40px; bottom: -700px; }

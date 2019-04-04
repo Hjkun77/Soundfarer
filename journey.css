@@ -37,6 +37,7 @@
     width: 615px;
 }
 
+
 .recordlabel h2 {
     color: #D41F45;
     font: 900 36px/36px Raleway;
@@ -209,7 +210,7 @@
 
 #progress { height: 2500px; }
 
-.recordlabel { margin-top: 430px; }
+.recordlabel { margin-top: 480px; }
 
 #side1 { top: 770px; width: 400px; }
 #side2 { width: 320px; }
