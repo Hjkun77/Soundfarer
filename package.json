@@ -1,0 +1,19 @@
+{
+  "name": "soundfarer",
+  "version": "1.0.0",
+  "description": "Francis Herrera's thesis project, an informative website that promotes local music scene through motivation and guiding users on how to operate as independent artists. This is in partial fulfillment of AB Information Design",
+  "main": "index.html",
+  "scripts": {
+    "test": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hjkun77/soundfarer.git"
+  },
+  "author": "Harvey Jay Sison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hjkun77/soundfarer/issues"
+  },
+  "homepage": "https://github.com/Hjkun77/soundfarer#readme"
+}
