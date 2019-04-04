@@ -85,7 +85,7 @@ nav {
     color: #F6F6F6;
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1800px) {
   .j-3 {
       margin-left: 15%;
   }
@@ -343,7 +343,7 @@ margin-top: 100px;
     background: none !important;
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1800px) {
   #journey {margin-bottom: 240px;}
   .j-3, .j-4{padding-top: 60px;}
   .j-3 h3 { top: -142%;}
