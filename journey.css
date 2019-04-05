@@ -433,7 +433,7 @@ button.bt-back:active {
     background-repeat: no-repeat;
 }
 
-.trackstart { position: absolute; top: 178px; text-transform: uppercase; font: 900 18px/18px Raleway; color: #D41F45; left: -10px;  }
+.trackstart { position: absolute; top: 158px; text-transform: uppercase; font: 900 18px/18px Raleway; color: #D41F45; left: -10px;  }
 
 .p-1 button.btn {
     position: absolute;
